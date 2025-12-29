@@ -1,5 +1,4 @@
 // imports all model files, injects sequelize instance and exports one object with all models
-// TODO: add model for each table
 const fs = require('fs');
 const path = require('path');
 const sequelize = require('../sequelize');

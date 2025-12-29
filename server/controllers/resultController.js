@@ -14,8 +14,8 @@ async function createResult(req, res, next) {
 // retrieve specific results for sample
 async function getResultsBySample(req, res, next) {
   try {
-    const results = await Result.findAll({ where: { sampleId: req.params.id } });
-    if (!results) return res.status(404).json({ error: "Result not found" });
+    const results = await Result.findAll({ where: { sampleId: req.params.sampleId } });
+    if (results.length === 0) return res.status(404).json({ error: "No results for this sample" });
     res.json(results);
   } catch (err) {
     next(err);
@@ -27,7 +27,7 @@ async function updateResult(req, res, next) {
   try {
     const result = await Result.findByPk(req.params.id);
     if (!result) return res.status(404).json({ error: "Result not found" });
-    await result.update(req.body, { user: req.user?.username || "system"});
+    await result.update(req.body, { user: req.user?.username || "system" });
     res.json(result);
   } catch (err) {
     next(err);

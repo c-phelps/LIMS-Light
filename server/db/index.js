@@ -7,7 +7,7 @@ require('./associations')(models);
 
 const connectAndSync = async () => {
     await sequelize.authenticate();
-    await sequelize.synce({ alter: true });
+    await sequelize.sync({ alter: true });
     console.log("Database connected and synced successfully!");
 }
 
