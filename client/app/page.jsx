@@ -1,9 +1,12 @@
-export default function Home() {
+// import Link from "next/link";
+
+// landing page for LIMS Light
+
+// temporarily added the Link to samples from home page to test MVP
+export default function HomePage() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        LIMS Light
-      </h1>
-    </main>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">LIMS Light</h1>
+    </div>
   );
 }
