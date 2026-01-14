@@ -1,0 +1,66 @@
+[
+  {
+    "methodId": 1,
+    "methodName": "BOD Test",
+    "matrix": "WATER",
+    "description": "Biological Oxygen Demand test to measure the amount of oxygen consumed by microorganisms over a specific period",
+    "units": "mg/L",
+    "detectionLimit": 0.1
+  },
+  {
+    "methodId": 2,
+    "methodName": "Nitrate (NO3-) Analysis",
+    "matrix": "WATER",
+    "description": "Determines nitrate concentration in water samples",
+    "units": "mg/L",
+    "detectionLimit": 0.1
+  },
+  {
+    "methodId": 3,
+    "methodName": "pH Test",
+    "matrix": "SOIL",
+    "description": "Soil acidity/alkalinity measurement using pH scale",
+    "units": "pH",
+    "detectionLimit": 0
+  },
+  {
+    "methodId": 4,
+    "methodName": "Heavy Metals Analysis",
+    "matrix": "SOIL",
+    "description": "Quantification of heavy metals such as lead, cadmium, and arsenic in soil samples",
+    "units": "mg/kg",
+    "detectionLimit": 0.5
+  },
+  {
+    "methodId": 5,
+    "methodName": "Volatile Organic Compounds (VOC) Analysis",
+    "matrix": "AIR",
+    "description": "Measures concentration of volatile organic compounds in air samples",
+    "units": "ppm",
+    "detectionLimit": 0.01
+  },
+  {
+    "methodId": 6,
+    "methodName": "Particulate Matter 2.5 (PM2.5) Test",
+    "matrix": "AIR",
+    "description": "Measures PM2.5 particle concentration in the air",
+    "units": "µg/m³",
+    "detectionLimit": 0.1
+  },
+  {
+    "methodId": 7,
+    "methodName": "Heavy Metals Screening",
+    "matrix": "OTHER",
+    "description": "Screening for heavy metals in miscellaneous samples (e.g., sludge, compost)",
+    "units": "mg/kg",
+    "detectionLimit": 0.5
+  },
+  {
+    "methodId": 8,
+    "methodName": "Total Organic Carbon (TOC)",
+    "matrix": "OTHER",
+    "description": "Measures total organic carbon content in non-standard matrices",
+    "units": "mg/kg",
+    "detectionLimit": 1
+  }
+]

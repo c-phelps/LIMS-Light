@@ -1,0 +1,502 @@
+[
+  {
+    "id": "017f9ab7-abe7-49bc-8029-8dac3538d74f",
+    "sampleName": "inflammatio abstergo vulticulus",
+    "sampleType": "H1K9W",
+    "matrix": "SOIL",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-09-16T22:42:44.696Z",
+    "receivedDate": "2026-01-13T19:40:53.459Z",
+    "notes": "Surculus custodia creo."
+  },
+  {
+    "id": "972f415e-d1ea-45e8-978b-050642cf7369",
+    "sampleName": "aperte celebrer carmen",
+    "sampleType": "C2QKW",
+    "matrix": "AIR",
+    "collectedBy": "Hickle-Krajcik",
+    "createdAt": "2025-10-24T21:14:40.541Z",
+    "receivedDate": "2026-01-13T17:22:28.667Z",
+    "notes": "Curvo totidem verumtamen tamdiu blandior mollitia."
+  },
+  {
+    "id": "3e4b7131-9bdb-49b9-a7a8-a90a6487c72a",
+    "sampleName": "una addo caelum",
+    "sampleType": "7F4AP",
+    "matrix": "AIR",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-03-19T05:12:08.229Z",
+    "receivedDate": "2026-01-13T05:58:20.868Z",
+    "notes": "Appono ipsam crapula cedo cupiditas torrens."
+  },
+  {
+    "id": "eb60be9b-cef2-4e9d-99e4-1334b73dbfcc",
+    "sampleName": "cerno denuo ustulo",
+    "sampleType": "RDJDM",
+    "matrix": "AIR",
+    "collectedBy": "Muller",
+    "createdAt": "2025-08-31T14:32:54.312Z",
+    "receivedDate": "2026-01-13T21:23:57.481Z",
+    "notes": "Bibo delibero creta vereor adhaero corrigo."
+  },
+  {
+    "id": "a691cc7a-79d8-45be-bb3c-3efbb7d280bb",
+    "sampleName": "textus accusantium armarium",
+    "sampleType": "HNHAJ",
+    "matrix": "SOIL",
+    "collectedBy": "Muller",
+    "createdAt": "2025-05-31T00:14:21.005Z",
+    "receivedDate": "2026-01-13T10:02:16.906Z",
+    "notes": "Suggero victus apud vos dedico decet ara."
+  },
+  {
+    "id": "3cc9a590-1e6b-4f95-b56f-e422f7be65ad",
+    "sampleName": "adipisci villa vestigium",
+    "sampleType": "0YE6U",
+    "matrix": "SOIL",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-05-23T19:31:07.769Z",
+    "receivedDate": "2026-01-13T21:54:15.936Z",
+    "notes": "Trado atrox laboriosam volva numquam decretum."
+  },
+  {
+    "id": "a468055d-38eb-4a10-8513-ed18748b0050",
+    "sampleName": "valeo correptius considero",
+    "sampleType": "JXAUQ",
+    "matrix": "OTHER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-10-26T20:52:17.989Z",
+    "receivedDate": "2026-01-13T06:58:08.331Z",
+    "notes": "Beatus admoveo videlicet veritas clamo adsuesco atrocitas cresco velum claudeo."
+  },
+  {
+    "id": "b6511c9b-a190-40d6-bfaf-645c4fc5ee63",
+    "sampleName": "aeger abeo eos",
+    "sampleType": "XLD2Z",
+    "matrix": "SOIL",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-07-18T21:53:49.671Z",
+    "receivedDate": "2026-01-13T21:39:00.950Z",
+    "notes": "Substantia vero demulceo."
+  },
+  {
+    "id": "1e89285c-fe72-488b-9733-aae3fc40c79e",
+    "sampleName": "sonitus cicuta depraedor",
+    "sampleType": "LHTFV",
+    "matrix": "OTHER",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-03-10T04:16:04.856Z",
+    "receivedDate": "2026-01-13T20:24:56.197Z",
+    "notes": "Tribuo agnosco vigilo coadunatio aspicio creo verbera sto."
+  },
+  {
+    "id": "a7fd8daa-fe7a-411f-8a15-aec27e806e2f",
+    "sampleName": "acervus bonus umerus",
+    "sampleType": "9F8ZW",
+    "matrix": "SOIL",
+    "collectedBy": "Hickle-Krajcik",
+    "createdAt": "2025-05-02T11:36:40.320Z",
+    "receivedDate": "2026-01-13T08:09:16.986Z",
+    "notes": "Harum iste benigne caput aranea comis demulceo aggredior vulgo subito."
+  },
+  {
+    "id": "5b0e515c-56d0-41b5-ac42-c4ba5caa618f",
+    "sampleName": "viriliter usque verus",
+    "sampleType": "QNH9I",
+    "matrix": "OTHER",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-04-05T22:21:05.785Z",
+    "receivedDate": "2026-01-13T01:23:23.325Z",
+    "notes": "Custodia condico ulciscor subito socius vinum vetus thema."
+  },
+  {
+    "id": "84f76ee2-4bee-4550-a2bf-b1bd715b911b",
+    "sampleName": "speculum sursum administratio",
+    "sampleType": "8ATGJ",
+    "matrix": "OTHER",
+    "collectedBy": "Muller",
+    "createdAt": "2025-10-11T14:38:07.492Z",
+    "receivedDate": "2026-01-13T22:08:14.142Z",
+    "notes": "Defleo carpo certe compono."
+  },
+  {
+    "id": "8f006393-3262-4d6f-94d7-f9968bf03c20",
+    "sampleName": "anser animi maxime",
+    "sampleType": "SE6MC",
+    "matrix": "AIR",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-11-13T17:12:23.507Z",
+    "receivedDate": "2026-01-13T23:12:47.275Z",
+    "notes": "Vallum appono tollo ambitus valde."
+  },
+  {
+    "id": "9b6dc26a-4a5e-41e7-82d5-9a7323a1393d",
+    "sampleName": "utroque ullam argentum",
+    "sampleType": "HRGXV",
+    "matrix": "WATER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-08-15T21:25:55.644Z",
+    "receivedDate": "2026-01-13T12:20:04.612Z",
+    "notes": "Ventus creo incidunt non."
+  },
+  {
+    "id": "2777b097-be8e-4bfc-8ef5-36348a512629",
+    "sampleName": "tergeo calco ambitus",
+    "sampleType": "IGLVY",
+    "matrix": "SOIL",
+    "collectedBy": "Gibson",
+    "createdAt": "2026-01-13T17:22:50.738Z",
+    "receivedDate": "2026-01-14T00:21:49.893Z",
+    "notes": "Paens appello incidunt quibusdam appello."
+  },
+  {
+    "id": "2df3a1c3-c506-45f5-9867-282bfce31ebf",
+    "sampleName": "amicitia damno non",
+    "sampleType": "XFAEJ",
+    "matrix": "SOIL",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-02-08T09:11:45.929Z",
+    "receivedDate": "2026-01-13T22:35:49.457Z",
+    "notes": "Defero volubilis delectatio."
+  },
+  {
+    "id": "8ad5970d-9224-4971-a0da-e33ed61fceda",
+    "sampleName": "tubineus demens laudantium",
+    "sampleType": "N6OZF",
+    "matrix": "AIR",
+    "collectedBy": "Muller",
+    "createdAt": "2025-05-05T18:08:44.085Z",
+    "receivedDate": "2026-01-13T04:51:58.750Z",
+    "notes": "Toties colo caute aiunt sit utilis compello."
+  },
+  {
+    "id": "329c894d-f6ef-42f5-ba99-48937c25fcbe",
+    "sampleName": "abeo ipsum admoneo",
+    "sampleType": "CD6XM",
+    "matrix": "WATER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-10-06T05:01:28.533Z",
+    "receivedDate": "2026-01-13T06:21:54.761Z",
+    "notes": "Comitatus ultra vomer aptus expedita."
+  },
+  {
+    "id": "37858f36-9a53-4fb2-81ef-ce2e3abcc180",
+    "sampleName": "quibusdam derelinquo vociferor",
+    "sampleType": "8M7ML",
+    "matrix": "WATER",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-12-14T07:41:14.326Z",
+    "receivedDate": "2026-01-13T09:07:58.996Z",
+    "notes": "Numquam tolero artificiose color admoneo tredecim antea tabula deludo."
+  },
+  {
+    "id": "762d6d61-28bd-4a95-93f7-3f068aa8372c",
+    "sampleName": "quisquam adnuo arx",
+    "sampleType": "YORYF",
+    "matrix": "SOIL",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-12-21T13:05:35.747Z",
+    "receivedDate": "2026-01-13T17:38:28.611Z",
+    "notes": "Adhuc deleniti talio sunt."
+  },
+  {
+    "id": "aa58b0ba-b2d5-454f-848b-05455596e3a1",
+    "sampleName": "abundans atrox voluptatem",
+    "sampleType": "QSV6H",
+    "matrix": "SOIL",
+    "collectedBy": "Muller",
+    "createdAt": "2025-03-16T01:30:46.172Z",
+    "receivedDate": "2026-01-13T07:16:14.552Z",
+    "notes": "Surgo laudantium volubilis repudiandae vito optio cattus adopto eligendi contigo."
+  },
+  {
+    "id": "7a72e744-b97e-47cb-92a0-38b1726ac9ff",
+    "sampleName": "alii cattus verecundia",
+    "sampleType": "TIT3S",
+    "matrix": "OTHER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-02-27T04:04:47.084Z",
+    "receivedDate": "2026-01-13T09:43:17.825Z",
+    "notes": "Sulum ullus temptatio ater verecundia vesper textilis armarium delibero."
+  },
+  {
+    "id": "b6765cb3-b95c-4aa2-9bd7-58747e6dc3d5",
+    "sampleName": "damno possimus deinde",
+    "sampleType": "WG9J9",
+    "matrix": "SOIL",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-07-29T23:09:29.923Z",
+    "receivedDate": "2026-01-13T11:01:24.709Z",
+    "notes": "Ulciscor pauper taedium reprehenderit tenus voco caute aureus."
+  },
+  {
+    "id": "3e387a61-db30-4e7b-ae50-3d550e1e85bc",
+    "sampleName": "solum deprecator verecundia",
+    "sampleType": "E3RDM",
+    "matrix": "AIR",
+    "collectedBy": "Hickle-Krajcik",
+    "createdAt": "2025-12-09T15:44:40.577Z",
+    "receivedDate": "2026-01-13T20:44:09.050Z",
+    "notes": "Aut asper aeternus spiculum depereo artificiose."
+  },
+  {
+    "id": "e7351283-9a34-418f-83be-b0fb01fd47a7",
+    "sampleName": "cumque verus harum",
+    "sampleType": "S7EOO",
+    "matrix": "WATER",
+    "collectedBy": "Muller",
+    "createdAt": "2025-12-10T04:53:21.317Z",
+    "receivedDate": "2026-01-13T01:01:26.263Z",
+    "notes": "Soleo vacuus tergeo statim tenus voluptas addo."
+  },
+  {
+    "id": "c134266d-6adf-468a-8ce6-ba810ad52272",
+    "sampleName": "tabula volup ambitus",
+    "sampleType": "EJO9M",
+    "matrix": "SOIL",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-07-17T01:27:58.114Z",
+    "receivedDate": "2026-01-13T03:10:36.039Z",
+    "notes": "Atrox aggero spargo deleo audeo neque velum curia."
+  },
+  {
+    "id": "fea4d86f-f4fa-44c8-ad69-e3f9dc4c195c",
+    "sampleName": "beneficium vulnus pecto",
+    "sampleType": "JSUVL",
+    "matrix": "WATER",
+    "collectedBy": "Muller",
+    "createdAt": "2025-02-08T15:11:59.274Z",
+    "receivedDate": "2026-01-13T21:53:05.299Z",
+    "notes": "Adduco tabula blanditiis modi vix eveniet tabernus conicio brevis."
+  },
+  {
+    "id": "e93c7a9b-1b88-480d-b3ba-e911232b606c",
+    "sampleName": "vigor magnam adiuvo",
+    "sampleType": "2IOLT",
+    "matrix": "SOIL",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-12-09T00:40:53.741Z",
+    "receivedDate": "2026-01-13T21:23:18.214Z",
+    "notes": "Anser cenaculum umerus vulariter."
+  },
+  {
+    "id": "6dcbd9e9-b87e-408f-bdca-a1f78b2e1d8d",
+    "sampleName": "tracto curatio amplus",
+    "sampleType": "Y1ZWG",
+    "matrix": "WATER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-01-27T00:22:45.258Z",
+    "receivedDate": "2026-01-13T18:36:44.960Z",
+    "notes": "Vulnus clam cenaculum deficio corroboro socius carus recusandae."
+  },
+  {
+    "id": "a8e3c044-9825-42ca-b221-709bb8ae4a2c",
+    "sampleName": "quod corrigo teres",
+    "sampleType": "EQQTL",
+    "matrix": "AIR",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-09-21T23:30:48.974Z",
+    "receivedDate": "2026-01-13T08:22:46.923Z",
+    "notes": "Sodalitas bonus derelinquo aequitas pel triduana ager clarus suppono cras."
+  },
+  {
+    "id": "c52fb5e3-2e39-4419-a327-be2a25914734",
+    "sampleName": "velociter rerum repellat",
+    "sampleType": "ZHUKU",
+    "matrix": "WATER",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-09-21T20:41:38.778Z",
+    "receivedDate": "2026-01-13T05:47:34.620Z",
+    "notes": "Bardus tonsor deporto."
+  },
+  {
+    "id": "174502c4-3228-411c-973d-ccf652e21930",
+    "sampleName": "tamdiu desino cohibeo",
+    "sampleType": "DUYOX",
+    "matrix": "SOIL",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-10-18T19:26:52.855Z",
+    "receivedDate": "2026-01-13T07:02:37.565Z",
+    "notes": "Certe defetiscor viriliter viduo comptus tero tredecim allatus supplanto stillicidium."
+  },
+  {
+    "id": "b9cbee5c-a360-41a7-9fc6-2234cb437d5f",
+    "sampleName": "vehemens tutis cauda",
+    "sampleType": "ZTCIA",
+    "matrix": "WATER",
+    "collectedBy": "Muller",
+    "createdAt": "2025-12-31T18:50:40.807Z",
+    "receivedDate": "2026-01-13T07:49:19.325Z",
+    "notes": "Acer curiositas repellendus texo delectatio carbo."
+  },
+  {
+    "id": "380a5465-e424-4a10-bdcc-a770ec402d8d",
+    "sampleName": "vehemens laudantium thesaurus",
+    "sampleType": "ELYXM",
+    "matrix": "SOIL",
+    "collectedBy": "Hickle-Krajcik",
+    "createdAt": "2025-04-28T15:05:49.917Z",
+    "receivedDate": "2026-01-14T00:15:09.877Z",
+    "notes": "Culpa unus inflammatio aeneus aedificium architecto."
+  },
+  {
+    "id": "3be9a666-b787-467d-9501-dd25e135b07f",
+    "sampleName": "urbs ab utor",
+    "sampleType": "DEEZV",
+    "matrix": "WATER",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-09-25T09:10:46.233Z",
+    "receivedDate": "2026-01-13T05:32:26.287Z",
+    "notes": "Vito adaugeo conservo utrimque vero timor teres nostrum."
+  },
+  {
+    "id": "4df425b5-89ee-4d97-9841-4a3bf4165411",
+    "sampleName": "amaritudo quos adhaero",
+    "sampleType": "6MJKM",
+    "matrix": "WATER",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-11-03T18:43:08.836Z",
+    "receivedDate": "2026-01-13T09:12:21.516Z",
+    "notes": "Sublime vox casus solum comburo id tripudio."
+  },
+  {
+    "id": "3c6cbc10-af52-444d-b99a-1cda52e6be27",
+    "sampleName": "voluptatem caste currus",
+    "sampleType": "THQNH",
+    "matrix": "SOIL",
+    "collectedBy": "Hodkiewicz-Shields",
+    "createdAt": "2025-11-03T19:13:04.067Z",
+    "receivedDate": "2026-01-13T20:31:44.789Z",
+    "notes": "Est sodalitas reiciendis a adsidue patria."
+  },
+  {
+    "id": "b9d342b8-bffd-4fab-8bb4-8ebfcbc02993",
+    "sampleName": "caries audacia arma",
+    "sampleType": "UHUIA",
+    "matrix": "OTHER",
+    "collectedBy": "Muller",
+    "createdAt": "2025-11-19T16:04:08.651Z",
+    "receivedDate": "2026-01-13T16:17:20.987Z",
+    "notes": "Acceptus ara soleo blandior."
+  },
+  {
+    "id": "e1578ff1-954e-4d87-88a2-b40e152d17c0",
+    "sampleName": "auxilium speculum absum",
+    "sampleType": "SR34S",
+    "matrix": "WATER",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-06-17T08:33:28.058Z",
+    "receivedDate": "2026-01-13T20:52:28.396Z",
+    "notes": "Cupressus clam theologus cetera arguo."
+  },
+  {
+    "id": "90e461a4-57a9-46c8-a369-1a11662111ca",
+    "sampleName": "ciminatio talis vulariter",
+    "sampleType": "FI7BD",
+    "matrix": "OTHER",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-10-14T07:23:54.363Z",
+    "receivedDate": "2026-01-13T03:45:24.134Z",
+    "notes": "Ademptio eaque tabella."
+  },
+  {
+    "id": "f0cbfbc4-4f81-4709-bc09-a7a9da3ad481",
+    "sampleName": "color torqueo via",
+    "sampleType": "CPN7T",
+    "matrix": "AIR",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-07-18T19:58:36.291Z",
+    "receivedDate": "2026-01-13T17:54:39.145Z",
+    "notes": "Totidem reprehenderit solum apud cultura tepesco doloribus calamitas vociferor."
+  },
+  {
+    "id": "fdfa0531-640a-4400-a9f2-0f754e0d5171",
+    "sampleName": "modi curatio arceo",
+    "sampleType": "0RERK",
+    "matrix": "SOIL",
+    "collectedBy": "Muller",
+    "createdAt": "2025-09-28T09:53:06.184Z",
+    "receivedDate": "2026-01-13T01:49:56.822Z",
+    "notes": "Strues contra xiphias."
+  },
+  {
+    "id": "5d9cca74-f176-43f5-b58a-8d761322957d",
+    "sampleName": "angelus abbas viscus",
+    "sampleType": "UNFZ4",
+    "matrix": "AIR",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-07-18T21:44:07.268Z",
+    "receivedDate": "2026-01-13T04:56:59.950Z",
+    "notes": "Ipsam cunctatio turba depulso urbanus vulgo caelestis triduana amiculum vos."
+  },
+  {
+    "id": "3c354766-5a1d-4288-a2d2-a469a53eece6",
+    "sampleName": "abstergo alioqui cenaculum",
+    "sampleType": "VVFK8",
+    "matrix": "SOIL",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-05-27T21:12:27.052Z",
+    "receivedDate": "2026-01-13T22:51:32.092Z",
+    "notes": "Celo strenuus rerum cribro caute paens studio."
+  },
+  {
+    "id": "7c061b22-7ec4-4bec-ad16-0734d315ba95",
+    "sampleName": "commemoro volaticus aduro",
+    "sampleType": "ANJVS",
+    "matrix": "AIR",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-09-17T18:14:56.721Z",
+    "receivedDate": "2026-01-13T17:38:21.875Z",
+    "notes": "Defleo video timor conservo adsidue comprehendo audio super venia quos."
+  },
+  {
+    "id": "e54c5134-9189-4619-9f37-0d92de729bbc",
+    "sampleName": "perferendis dolores cimentarius",
+    "sampleType": "6XXVG",
+    "matrix": "OTHER",
+    "collectedBy": "Gibson",
+    "createdAt": "2025-08-17T16:55:47.293Z",
+    "receivedDate": "2026-01-13T02:06:08.741Z",
+    "notes": "Tibi adulescens distinctio."
+  },
+  {
+    "id": "fc2bcbc2-188e-4912-b283-1ecdb1efed95",
+    "sampleName": "valeo agnitio tendo",
+    "sampleType": "KYJFP",
+    "matrix": "WATER",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-11-19T03:21:00.290Z",
+    "receivedDate": "2026-01-13T12:09:14.142Z",
+    "notes": "Vitium occaecati aedificium colo consequuntur thesis acquiro est comprehendo."
+  },
+  {
+    "id": "7d40bf4d-721c-47a5-97f8-0e1dce1a8cf1",
+    "sampleName": "beatus coepi thermae",
+    "sampleType": "IJZOX",
+    "matrix": "WATER",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-06-20T23:22:48.806Z",
+    "receivedDate": "2026-01-13T12:21:02.283Z",
+    "notes": "Quisquam atrocitas carmen absorbeo trado repellat centum demitto."
+  },
+  {
+    "id": "c0702c8a-45d2-4033-873a-2233cba6d9e7",
+    "sampleName": "corpus distinctio confido",
+    "sampleType": "ILZTE",
+    "matrix": "WATER",
+    "collectedBy": "Thompson",
+    "createdAt": "2025-07-05T02:05:00.530Z",
+    "receivedDate": "2026-01-13T10:27:04.214Z",
+    "notes": "Voluntarius verbum deficio repellat despecto totidem cogito maiores."
+  },
+  {
+    "id": "633a8bcf-788c-49de-ab59-d71898e515ff",
+    "sampleName": "adfectus infit depereo",
+    "sampleType": "8ZYKK",
+    "matrix": "OTHER",
+    "collectedBy": "Schneider",
+    "createdAt": "2025-04-07T12:54:28.072Z",
+    "receivedDate": "2026-01-13T23:21:22.500Z",
+    "notes": "Cogito totus vel."
+  }
+]
