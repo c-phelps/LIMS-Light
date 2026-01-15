@@ -39,9 +39,7 @@ async function generateSamplesAndResults() {
         sampleId: sample.id,
         methodId: method.id,
         value: faker.number.float({ min: 0, max: 100, precision: 0.01 }),
-        units: method.units,
         status: faker.helpers.arrayElement(["PENDING", "APPROVED", "REJECTED"]),
-        detectionLimit: method.detectionLimit,
         approvedBy: faker.helpers.arrayElement(user),
         notes: faker.lorem.sentence(),
       };

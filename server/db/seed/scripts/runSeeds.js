@@ -1,12 +1,12 @@
 const fs = require("fs");
 const path = require ("path");
-const { sequelize, connectAndSync } = require("../");
+const { connectAndSync } = require("../..");
 
 const runSeeds = async () => {
   try {
     await connectAndSync({ force: true });
     // sets the absolute path for the current directory that is being manipulated
-    const dir = path.join(__dirname, "seeds");
+    const dir = path.join(__dirname, "..","seeds");
     const files = fs.readdirSync(dir).sort();
     // loops through the array of files that are in the directory stored here by readdirSync
     for (const file of files) {
