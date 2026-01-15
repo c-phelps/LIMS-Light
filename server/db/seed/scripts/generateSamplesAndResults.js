@@ -1,18 +1,20 @@
-import methodData from "../data/methods.json" with { type: "json" };
+const methodData = require("../data/methods.json");
 // use faker to simplify the random data gen
-import { faker } from "@faker-js/faker";
-import { writeFile, mkdir } from "fs/promises";
+const { writeFile, mkdir } = require("fs/promises");
 
-// create an array to hold the sample and results
-const samples = [];
-const results = [];
-// create an array of 6 or so users to keep the data looking consistent
-const user = [];
-for (let i = 0; i < 6; i++) {
-  user.push(faker.person.lastName());
-}
+async function generateSamplesAndResults() {
+  const samples = [];
+  const results = [];
+  // create an array of 6 or so users to keep the data looking consistent
+  const user = [];
+  // due to versioning issues faker will need to be dynamically imported rather than using require
+  const fakerModule = await import("@faker-js/faker");
+  const { faker } = fakerModule;
+  // create an array to hold the sample and results
+  for (let i = 0; i < 6; i++) {
+    user.push(faker.person.lastName());
+  }
 
-function generateSamplesAndResults() {
   // generate sample data for results
   for (let i = 0; i < 50; i++) {
     // create a sample object
@@ -52,17 +54,23 @@ function generateSamplesAndResults() {
 async function writeData() {
   try {
     // retrieve destructured samples and results
-    const { samples, results } = generateSamplesAndResults();
-    await mkdir("seed/data", {recursive: true});
+    const { samples, results } = await generateSamplesAndResults();
+    await mkdir("server/db/seed/data/", { recursive: true });
+
+    for (const r of results) {
+      if (typeof r.value !== "number") {
+        console.log("Non-numeric value detected:", r);
+      }
+    }
 
     console.log(`Generated ${samples.length} samples and ${results.length} results.`);
-    if (samples.length === 0){
-      console.log("No samples generated.")
+    if (samples.length === 0) {
+      console.log("No samples generated.");
     }
-    
+
     // write the samples and results to their respective json files
-    await writeFile("server/db/seed/data/samples.json", JSON.stringify(samples,null,2));
-    await writeFile("server/db/seed/data/results.json", JSON.stringify(results,null,2));
+    await writeFile("server/db/seed/data/samples.json", JSON.stringify(samples, null, 2));
+    await writeFile("server/db/seed/data/results.json", JSON.stringify(results, null, 2));
     console.log("Sample and result data generated successfully.");
   } catch (error) {
     console.error("Error writing data to files:", error);
