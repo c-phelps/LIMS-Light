@@ -6,9 +6,14 @@ const models = require("./models");
 require("./associations")(models);
 
 const connectAndSync = async () => {
-  await sequelize.authenticate();
-  await sequelize.sync({ force: true });
-  console.log("Database connected and synced successfully!");
+  try {
+    await sequelize.authenticate();
+    await sequelize.sync({ alter: true });
+    console.log("Database connected and synced successfully!");
+  } catch (err) {
+    console.error("DB connection and/or sync failed:", err);
+    process.exit(1);
+  }
 };
 
 module.exports = { sequelize, ...models, connectAndSync };

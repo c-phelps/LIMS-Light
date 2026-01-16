@@ -16,6 +16,7 @@ async function getMethods(req, res, next) {
     const method = await Method.findAll({ order: [["matrix", "ASC"]] });
     res.json(method);
   } catch (err) {
+    console.log(err);
     next(err);
   }
 }
