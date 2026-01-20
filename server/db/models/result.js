@@ -4,7 +4,9 @@ module.exports = (sequelize, DataTypes) => {
     {
       id: { type: DataTypes.UUID, defaultValue: DataTypes.UUIDV4, primaryKey: true },
       sampleId: { type: DataTypes.UUID, allowNull: false },
-      methodId: { type: DataTypes.INTEGER, allowNull: false },
+      methodId: { type: DataTypes.UUID, allowNull: false },
+      analyteId: { type: DataTypes.UUID, allowNull: false },
+
       value: DataTypes.FLOAT,
       status: DataTypes.ENUM("PENDING", "APPROVED", "REJECTED"),
       approvedBy: DataTypes.STRING,
@@ -34,19 +36,20 @@ module.exports = (sequelize, DataTypes) => {
         afterDestroy: async (result, options) => {
           const AuditLog = sequelize.models.AuditLog;
           await AuditLog.create({
-            entityType: " result",
+            entityType: "result",
             entityId: result.id,
             action: "DELETE",
             performedBy: options?.user || "system",
           });
         },
       },
-    }
+    },
   );
 
   Result.associate = (models) => {
     Result.belongsTo(models.Sample, { foreignKey: "sampleId" });
     Result.belongsTo(models.Method, { foreignKey: "methodId" });
+    Result.belongsTo(models.Analyte, { foreignKey: "analyteId" });
   };
   return Result;
 };

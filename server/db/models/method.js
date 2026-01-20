@@ -1,11 +1,13 @@
 module.exports = (sequelize, DataTypes) => {
-    const Method = sequelize.define("Method", {
-        id: { type: DataTypes.INTEGER, autoIncrement: true, primaryKey: true },
-        methodName: { type: DataTypes.STRING, allowNull: false, unique: true },
-        matrix: { type: DataTypes.ENUM("WATER", "SOIL", "AIR", "OTHER"), allowNull: false },
-        description: DataTypes.TEXT,
-        units: DataTypes.STRING,
-        detectionLimit: DataTypes.FLOAT,
-    })
-    return Method;
-}
+  const Method = sequelize.define("Method", {
+    id: { type: DataTypes.UUID, defaultValue: DataTypes.UUIDV4, primaryKey: true },
+    methodName: { type: DataTypes.STRING, allowNull: false, unique: true },
+    description: DataTypes.TEXT,
+    matrixId: { type: DataTypes.UUID, allowNull: false },
+  });
+
+  Method.associate = (models) => {
+    Method.belongsTo(models.Matrix, { foreignKey: "matrixId" });
+  };
+  return Method;
+};

@@ -14,7 +14,7 @@ async function createResult(req, res, next) {
 // retrieve specific results for sample
 async function getResultsBySample(req, res, next) {
   try {
-    const results = await Result.findAll({ where: { sampleId: req.params.sampleId }, include: [Result] });
+    const results = await Result.findAll({ where: { sampleId: req.params.sampleId }});
     if (results.length === 0) return res.status(404).json({ error: "No results for this sample" });
     res.json(results);
   } catch (err) {
