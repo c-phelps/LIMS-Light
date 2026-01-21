@@ -1,4 +1,6 @@
+import withAuditHooks from "../hooks/auditHooks.js";
 module.exports = (sequelize, DataTypes) => {
+  const auditHooks = withAuditHooks("methodanalyte");
   const MethodAnalyte = sequelize.define(
     "MethodAnalyte",
     {
@@ -20,6 +22,9 @@ module.exports = (sequelize, DataTypes) => {
           fields: ["methodId", "analyteId"],
         },
       ],
+    },
+    {
+      hooks: auditHooks,
     },
   );
 

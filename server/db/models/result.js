@@ -1,4 +1,7 @@
+import withAuditHooks from "../hooks/auditHooks.js";
+
 module.exports = (sequelize, DataTypes) => {
+  const auditHooks = withAuditHooks("result");
   const Result = sequelize.define(
     "Result",
     {
@@ -13,36 +16,7 @@ module.exports = (sequelize, DataTypes) => {
       notes: DataTypes.TEXT,
     },
     {
-      hooks: {
-        afterCreate: async (result, options) => {
-          const AuditLog = sequelize.models.AuditLog;
-          await AuditLog.create({
-            entityType: "result",
-            entityId: result.id,
-            action: "CREATE",
-            performedBy: options?.user || "system",
-          });
-        },
-        afterUpdate: async (result, options) => {
-          const AuditLog = sequelize.models.AuditLog;
-          await AuditLog.create({
-            entityType: "result",
-            entityId: result.id,
-            action: "UPDATE",
-            changedFields: result._changed,
-            performedBy: options?.user || "system",
-          });
-        },
-        afterDestroy: async (result, options) => {
-          const AuditLog = sequelize.models.AuditLog;
-          await AuditLog.create({
-            entityType: "result",
-            entityId: result.id,
-            action: "DELETE",
-            performedBy: options?.user || "system",
-          });
-        },
-      },
+      hooks: auditHooks,
     },
   );
 

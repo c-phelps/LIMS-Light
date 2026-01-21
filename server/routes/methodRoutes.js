@@ -4,7 +4,7 @@ const methodController = require("../controllers/methodController");
 
 router.post("/", methodController.createMethod);
 router.get("/", methodController.getMethods);
-router.get("/matrix/:matrix", methodController.getMethodByMatrix);
+router.get("/:id", methodController.getMethodById);
 router.put("/:id", methodController.updateMethod);
 router.delete("/:id", methodController.deleteMethod);
 

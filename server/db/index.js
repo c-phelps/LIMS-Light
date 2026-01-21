@@ -1,6 +1,5 @@
 // import sequelize, models and associations
 // sync db connection and export sequelize instance and models
-
 const sequelize = require("./sequelize");
 const models = require("./models");
 require("./associations")(models);

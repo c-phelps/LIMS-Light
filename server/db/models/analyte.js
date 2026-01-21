@@ -1,4 +1,6 @@
+import withAuditHooks from "../hooks/auditHooks.js";
 module.exports = (sequelize, DataTypes) => {
+  const auditHooks = withAuditHooks("ana");
   const Analyte = sequelize.define("Analyte", {
     id: { type: DataTypes.UUID, defaultValue: DataTypes.UUIDV4, primaryKey: true },
     analyteCode: { type: DataTypes.STRING, allowNull: false, unique: true },

@@ -1,9 +1,9 @@
-const { Method } = require("../db");
+const { Method, MethodAnalyte, Analyte } = require("../db");
 
 // create method
 async function createMethod(req, res, next) {
   try {
-    const method = await Method.create(req.body);
+    const method = await Method.create(req.body, { user: req.user?.username || "system" });
     res.status(201).json(method);
   } catch (err) {
     next(err);
@@ -13,18 +13,22 @@ async function createMethod(req, res, next) {
 // retrieve all methods
 async function getMethods(req, res, next) {
   try {
-    const method = await Method.findAll({ order: [["matrix", "ASC"]] });
+    const method = await Method.findAll({
+      order: [["methodName", "ASC"]],
+      include: [Matrix, { model: MethodAnalyte, include: [Analyte], order: [["reportingOrder", "ASC"]] }],
+    });
     res.json(method);
   } catch (err) {
     console.log(err);
     next(err);
   }
 }
-
 // retrieve method by matrix
-async function getMethodByMatrix(req, res, next) {
+async function getMethodById(req, res, next) {
   try {
-    const method = await Method.findAll({ where: { matrix: req.params.matrix } });
+    const method = await Method.findByPk(req.params.id, {
+      include: [Matrix, { model: MethodAnalyte, include: [Analyte] }],
+    });
     if (!method) return res.status(404).json({ error: "Method not found" });
     res.json(method);
   } catch (err) {
@@ -38,7 +42,7 @@ async function updateMethod(req, res, next) {
     const method = await Method.findByPk(req.params.id);
     if (!method) return res.status(404).json({ error: "Method not found" });
 
-    await method.update(req.body);
+    await method.update(req.body, { user: req.user?.username || "system" });
     res.json(method);
   } catch (err) {
     next(err);
@@ -50,7 +54,7 @@ async function deleteMethod(req, res, next) {
   try {
     const method = await Method.findByPk(req.params.id);
     if (!method) return res.status(404).json({ error: "Method not found" });
-    await method.destroy();
+    await method.destroy({ user: req.user?.username || "system" });
     res.status(204).end();
   } catch (err) {
     next(err);
@@ -62,5 +66,5 @@ module.exports = {
   getMethods,
   updateMethod,
   deleteMethod,
-  getMethodByMatrix,
+  getMethodById,
 };

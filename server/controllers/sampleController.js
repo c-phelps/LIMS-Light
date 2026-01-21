@@ -4,7 +4,7 @@ const { Sample, Result } = require("../db");
 // create sample
 async function createSample(req, res, next) {
   try {
-    const sample = await Sample.create(req.body, { user: req.user.username });
+    const sample = await Sample.create(req.body, { user: req.user?.username || "system" });
     res.status(201).json(sample);
   } catch (err) {
     next(err);
@@ -38,7 +38,7 @@ async function updateSample(req, res, next) {
     const sample = await Sample.findByPk(req.params.id);
     if (!sample) return res.status(404).json({ error: "Sample not found" });
 
-    await sample.update(req.body, { user: req.user.username });
+    await sample.update(req.body, { user: req.user?.username || "system" });
 
     res.json(sample);
   } catch (err) {
@@ -52,7 +52,7 @@ async function deleteSample(req, res, next) {
     const sample = await Sample.findByPk(req.params.id);
     if (!sample) return res.status(404).json({ error: "Sample not found" });
 
-    await sample.destroy({ user: req.user.username });
+    await sample.destroy({ user: req.user?.username || "system" });
 
     res.status(204).end();
   } catch (err) {
