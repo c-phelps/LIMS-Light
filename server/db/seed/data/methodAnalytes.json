@@ -1,0 +1,86 @@
+[
+  {
+    "methodName": "EPA 300.0 – Anions",
+    "analyteName": "Nitrate",
+    "unit": "mg/L",
+    "detectionLimit": 0.05,
+    "quantitationLimit": 0.10,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "EPA 300.0 – Anions",
+    "analyteName": "Nitrite",
+    "unit": "mg/L",
+    "detectionLimit": 0.02,
+    "quantitationLimit": 0.05,
+    "reportingOrder": 2
+  },
+  {
+    "methodName": "EPA 300.0 – Anions",
+    "analyteName": "Chloride",
+    "unit": "mg/L",
+    "detectionLimit": 0.10,
+    "quantitationLimit": 0.20,
+    "reportingOrder": 3
+  },
+
+  {
+    "methodName": "SM 4500-O B – BOD",
+    "analyteName": "BOD",
+    "unit": "mg/L",
+    "detectionLimit": 2,
+    "quantitationLimit": 5,
+    "reportingOrder": 1
+  },
+
+  {
+    "methodName": "EPA 6010D – Metals",
+    "analyteName": "Lead",
+    "unit": "mg/kg",
+    "detectionLimit": 0.5,
+    "quantitationLimit": 1.0,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "EPA 6010D – Metals",
+    "analyteName": "Cadmium",
+    "unit": "mg/kg",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 2
+  },
+
+  {
+    "methodName": "EPA TO-15 – VOCs",
+    "analyteName": "Benzene",
+    "unit": "ppb",
+    "detectionLimit": 0.2,
+    "quantitationLimit": 0.5,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "EPA TO-15 – VOCs",
+    "analyteName": "Toluene",
+    "unit": "ppb",
+    "detectionLimit": 0.5,
+    "quantitationLimit": 1.0,
+    "reportingOrder": 2
+  },
+
+  {
+    "methodName": "AOAC 2015.01 – Nutrients",
+    "analyteName": "Protein",
+    "unit": "g/100g",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "AOAC 2015.01 – Nutrients",
+    "analyteName": "Total Fat",
+    "unit": "g/100g",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 2
+  }
+]

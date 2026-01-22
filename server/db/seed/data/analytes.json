@@ -1,0 +1,19 @@
+[
+  { "analyteName": "Nitrate", "analyteCode": "NO3", "description": "Nitrate ion" },
+  { "analyteName": "Nitrite", "analyteCode": "NO2", "description": "Nitrite ion" },
+  { "analyteName": "Chloride", "analyteCode": "Cl", "description": "Chloride ion" },
+  { "analyteName": "Sulfate", "analyteCode": "SO4", "description": "Sulfate ion" },
+
+  { "analyteName": "BOD", "analyteCode": "BOD5", "description": "Biological Oxygen Demand" },
+
+  { "analyteName": "Lead", "analyteCode": "Pb", "description": "Lead metal" },
+  { "analyteName": "Cadmium", "analyteCode": "Cd", "description": "Cadmium metal" },
+  { "analyteName": "Arsenic", "analyteCode": "As", "description": "Arsenic metal" },
+  { "analyteName": "Chromium", "analyteCode": "Cr", "description": "Chromium metal" },
+
+  { "analyteName": "Benzene", "analyteCode": "BENZ", "description": "Volatile organic compound" },
+  { "analyteName": "Toluene", "analyteCode": "TOL", "description": "Volatile organic compound" },
+
+  { "analyteName": "Protein", "analyteCode": "PROT", "description": "Total protein" },
+  { "analyteName": "Total Fat", "analyteCode": "FAT", "description": "Total fat content" }
+]

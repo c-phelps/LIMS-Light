@@ -1,66 +1,27 @@
 [
   {
-    "id": 1,
-    "methodName": "BOD Test",
-    "matrix": "WATER",
-    "description": "Biological Oxygen Demand test to measure the amount of oxygen consumed by microorganisms over a specific period",
-    "units": "mg/L",
-    "detectionLimit": 0.1
+    "methodName": "EPA 300.0 – Anions",
+    "description": "Ion chromatography for inorganic anions",
+    "matrixName": "WATER"
   },
   {
-    "id": 2,
-    "methodName": "Nitrate (NO3-) Analysis",
-    "matrix": "WATER",
-    "description": "Determines nitrate concentration in water samples",
-    "units": "mg/L",
-    "detectionLimit": 0.1
+    "methodName": "SM 4500-O B – BOD",
+    "description": "5-day biological oxygen demand",
+    "matrixName": "WATER"
   },
   {
-    "id": 3,
-    "methodName": "pH Test",
-    "matrix": "SOIL",
-    "description": "Soil acidity/alkalinity measurement using pH scale",
-    "units": "pH",
-    "detectionLimit": 0
+    "methodName": "EPA 6010D – Metals",
+    "description": "ICP-OES metals analysis",
+    "matrixName": "SOIL"
   },
   {
-    "id": 4,
-    "methodName": "Heavy Metals Analysis",
-    "matrix": "SOIL",
-    "description": "Quantification of heavy metals such as lead, cadmium, and arsenic in soil samples",
-    "units": "mg/kg",
-    "detectionLimit": 0.5
+    "methodName": "EPA TO-15 – VOCs",
+    "description": "GC/MS analysis of volatile organic compounds",
+    "matrixName": "AIR"
   },
   {
-    "id": 5,
-    "methodName": "Volatile Organic Compounds (VOC) Analysis",
-    "matrix": "AIR",
-    "description": "Measures concentration of volatile organic compounds in air samples",
-    "units": "ppm",
-    "detectionLimit": 0.01
-  },
-  {
-    "id": 6,
-    "methodName": "Particulate Matter 2.5 (PM2.5) Test",
-    "matrix": "AIR",
-    "description": "Measures PM2.5 particle concentration in the air",
-    "units": "µg/m³",
-    "detectionLimit": 0.1
-  },
-  {
-    "id": 7,
-    "methodName": "Heavy Metals Screening",
-    "matrix": "OTHER",
-    "description": "Screening for heavy metals in miscellaneous samples (e.g., sludge, compost)",
-    "units": "mg/kg",
-    "detectionLimit": 0.5
-  },
-  {
-    "id": 8,
-    "methodName": "Total Organic Carbon (TOC)",
-    "matrix": "OTHER",
-    "description": "Measures total organic carbon content in non-standard matrices",
-    "units": "mg/kg",
-    "detectionLimit": 1
+    "methodName": "AOAC 2015.01 – Nutrients",
+    "description": "Food nutrient analysis",
+    "matrixName": "FOOD"
   }
 ]

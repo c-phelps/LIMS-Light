@@ -1,0 +1,27 @@
+[
+  {
+    "matrixName": "WATER",
+    "matrixCode": "W",
+    "description": "Drinking water, surface water, wastewater"
+  },
+  {
+    "matrixName": "SOIL",
+    "matrixCode": "S",
+    "description": "Agricultural and contaminated soils"
+  },
+  {
+    "matrixName": "AIR",
+    "matrixCode": "A",
+    "description": "Ambient and workplace air"
+  },
+  {
+    "matrixName": "SLUDGE",
+    "matrixCode": "SL",
+    "description": "Biosolids and wastewater residuals"
+  },
+  {
+    "matrixName": "FOOD",
+    "matrixCode": "F",
+    "description": "Raw and processed food products"
+  }
+]
