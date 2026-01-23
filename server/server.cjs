@@ -4,7 +4,7 @@ console.log("DATABASE_URL:", process.env.DATABASE_URL);
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
-const routes = require("./routes/index.cjs");
+const routes = require("./api/routes/index.cjs");
 const { connectAndSync } = require("./db/index.cjs");
 
 const app = express();

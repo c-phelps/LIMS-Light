@@ -1,4 +1,4 @@
-const { Matrix, Method } = require("../db/index.cjs");
+const { Matrix, Method } = require("../../db/index.cjs");
 
 // create
 async function createMatrix(req, res, next) {

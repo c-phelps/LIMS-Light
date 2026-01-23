@@ -1,4 +1,4 @@
-const { MethodAnalyte, Analyte, Method } = require("../db/index.cjs");
+const { MethodAnalyte, Analyte, Method } = require("../../db/index.cjs");
 
 // define which analyes belong to a method
 async function getMethodAnalytes(req, res, next) {

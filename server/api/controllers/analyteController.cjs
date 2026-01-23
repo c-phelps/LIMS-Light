@@ -1,4 +1,4 @@
-const { Analyte } = require("../db/index.cjs");
+const { Analyte } = require("../../db/index.cjs");
 // create
 async function createAnalyte(req, res, next) {
   try {

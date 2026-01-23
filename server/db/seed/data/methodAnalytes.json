@@ -4,7 +4,7 @@
     "analyteName": "Nitrate",
     "unit": "mg/L",
     "detectionLimit": 0.05,
-    "quantitationLimit": 0.10,
+    "quantitationLimit": 0.1,
     "reportingOrder": 1
   },
   {
@@ -19,11 +19,10 @@
     "methodName": "EPA 300.0 – Anions",
     "analyteName": "Chloride",
     "unit": "mg/L",
-    "detectionLimit": 0.10,
-    "quantitationLimit": 0.20,
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
     "reportingOrder": 3
   },
-
   {
     "methodName": "SM 4500-O B – BOD",
     "analyteName": "BOD",
@@ -48,6 +47,22 @@
     "detectionLimit": 0.1,
     "quantitationLimit": 0.2,
     "reportingOrder": 2
+  },
+  {
+    "methodName": "EPA 6010D – Metals",
+    "analyteName": "Arsenic",
+    "unit": "mg/kg",
+    "detectionLimit": 0.05,
+    "quantitationLimit": 0.1,
+    "reportingOrder": 3
+  },
+  {
+    "methodName": "EPA 6010D – Metals",
+    "analyteName": "Chromium",
+    "unit": "mg/kg",
+    "detectionLimit": 0.2,
+    "quantitationLimit": 0.5,
+    "reportingOrder": 4
   },
 
   {
@@ -79,6 +94,64 @@
     "methodName": "AOAC 2015.01 – Nutrients",
     "analyteName": "Total Fat",
     "unit": "g/100g",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 2
+  },
+
+  {
+    "methodName": "Total Solids in Sludge",
+    "analyteName": "Total Solids",
+    "unit": "%",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "Total Solids in Sludge",
+    "analyteName": "Volatile Solids",
+    "unit": "%",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 2
+  },
+  {
+    "methodName": "Total Solids in Sludge",
+    "analyteName": "Total Kjeldahl Nitrogen",
+    "unit": "mg/L",
+    "detectionLimit": 1,
+    "quantitationLimit": 2,
+    "reportingOrder": 3
+  },
+  {
+    "methodName": "Total Solids in Sludge",
+    "analyteName": "Total Phosphorus",
+    "unit": "mg/L",
+    "detectionLimit": 0.5,
+    "quantitationLimit": 1,
+    "reportingOrder": 4
+  },
+  {
+    "methodName": "Total Solids in Sludge",
+    "analyteName": "Total Organic Carbon",
+    "unit": "mg/L",
+    "detectionLimit": 0.5,
+    "quantitationLimit": 1,
+    "reportingOrder": 5
+  },
+
+  {
+    "methodName": "Gravimetric – Solids",
+    "analyteName": "Total Solids",
+    "unit": "%",
+    "detectionLimit": 0.1,
+    "quantitationLimit": 0.2,
+    "reportingOrder": 1
+  },
+  {
+    "methodName": "Gravimetric – Solids",
+    "analyteName": "Volatile Solids",
+    "unit": "%",
     "detectionLimit": 0.1,
     "quantitationLimit": 0.2,
     "reportingOrder": 2

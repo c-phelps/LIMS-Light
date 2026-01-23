@@ -1,49 +1,66 @@
-const methodData = require("../data/methods.json");
 // use faker to simplify the random data gen
 const { writeFile, mkdir } = require("fs/promises");
+const { Matrix, MethodAnalyte, Method } = require("../../../db/index.cjs");
+const { data } = require("autoprefixer");
 
 async function generateSamplesAndResults() {
   const samples = [];
   const results = [];
-  // create an array of 6 or so users to keep the data looking consistent
   const user = [];
   // due to versioning issues faker will need to be dynamically imported rather than using require
   const fakerModule = await import("@faker-js/faker");
   const { faker } = fakerModule;
-  // create an array to hold the sample and results
+
   for (let i = 0; i < 6; i++) {
     user.push(faker.person.lastName());
   }
-  
+
+  const matrixData = await Matrix.findAll({ order: [["matrixName", "ASC"]] });
+  const matrixIds = matrixData.map((data) => data.id);
+
   // generate sample data for results
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 40; i++) {
     // create a sample object
     const sample = {
       id: faker.string.uuid(),
-      sampleName: faker.lorem.words(3),
+      sampleName: faker.lorem.words(2),
+      matrixId: faker.helpers.arrayElement(matrixIds),
       sampleType: faker.string.alphanumeric(5).toUpperCase(),
-      matrix: faker.helpers.arrayElement(["WATER", "SOIL", "AIR", "OTHER"]),
       collectedBy: faker.helpers.arrayElement(user),
       createdAt: faker.date.past({ years: 1 }).toISOString(),
       receivedDate: faker.date.recent().toISOString(),
       notes: faker.lorem.sentence(),
     };
     samples.push(sample);
-    // grab a random method from the available methods where the matrix matches the sample matrix
-    const applicableMethods = methodData.filter((method) => method.matrix === sample.matrix);
-    const method = faker.helpers.arrayElement(applicableMethods);
 
-    for (let j = 0; j < faker.number.int({ min: 1, max: 3 }); j++) {
+    // grab a random method from the available methods where the matrix matches the sample matrix
+    const methodData = await Method.findAll({
+      where: {
+        matrixId: sample.matrixId,
+      },
+      attributes: ["id"],
+    });
+    const methods = methodData.map((data) => data.id);
+    const randomMethod = methods[Math.floor(Math.random() * methods.length)];
+    const methodAnalyteData = await MethodAnalyte.findAll({
+      where: {
+        methodId: randomMethod,
+      },
+      attributes: ["id"],
+    });
+    const methodAnalytes = methodAnalyteData.map((data) => data.id);
+
+    for (const methodAnalyte of methodAnalytes) {
       const result = {
         id: faker.string.uuid(),
         sampleId: sample.id,
-        methodId: method.id,
-        value: faker.number.float({ min: 0, max: 100, precision: 0.01 }),
+        methodAnalyteId: methodAnalyte,
+        value: faker.number.float({ min: 0, max: 100, precision: 0.1 }),
         status: faker.helpers.arrayElement(["PENDING", "APPROVED", "REJECTED"]),
         approvedBy: faker.helpers.arrayElement(user),
         notes: faker.lorem.sentence(),
-      };
-      results.push(result);
+      }
+        results.push(result);
     }
   }
   return { samples, results };
@@ -60,7 +77,6 @@ async function writeData() {
         console.log("Non-numeric value detected:", r);
       }
     }
-
     console.log(`Generated ${samples.length} samples and ${results.length} results.`);
     if (samples.length === 0) {
       console.log("No samples generated.");

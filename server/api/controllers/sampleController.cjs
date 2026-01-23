@@ -1,5 +1,7 @@
 //crud logic for samples
-const { Sample, Result } = require("../db/index.cjs");
+const { Sample, Result } = require("../../db/index.cjs");
+// serializer/mapper
+
 
 // create sample
 async function createSample(req, res, next) {
@@ -14,7 +16,10 @@ async function createSample(req, res, next) {
 //retrieve all samples
 async function getAllSamples(req, res, next) {
   try {
-    const samples = await Sample.findAll({ order: [["createdAt", "DESC"]], limit: 200 });
+    const samples = await Sample.findAll({
+      order: [["createdAt", "DESC"]],
+      limit: 200, include: [Result]
+    });
     res.json(samples);
   } catch (err) {
     next(err);

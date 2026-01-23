@@ -1,4 +1,4 @@
-const { Method, MethodAnalyte, Analyte } = require("../db/index.cjs");
+const { Method, MethodAnalyte, Analyte } = require("../../db/index.cjs");
 
 // create method
 async function createMethod(req, res, next) {

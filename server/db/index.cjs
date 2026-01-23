@@ -2,7 +2,6 @@
 // sync db connection and export sequelize instance and models
 const sequelize = require("./sequelize.cjs");
 const models = require("./models/index.cjs");
-require("./associations.cjs")(models);
 
 const connectAndSync = async () => {
   try {

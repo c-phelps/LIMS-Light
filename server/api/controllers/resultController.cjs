@@ -1,5 +1,5 @@
 //crud logic for results
-const { Result, Method, Analyte, Sample, MethodAnalyte } = require("../db/index.cjs");
+const { Result, Method, Analyte, Sample, MethodAnalyte } = require("../../db/index.cjs");
 
 // create result
 async function createResult(req, res, next) {

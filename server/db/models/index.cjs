@@ -17,5 +17,11 @@ fs.readdirSync(__dirname)
     const model = require(path.join(__dirname, file))(sequelize, DataTypes);
     models[model.name] = model;
   });
+  
+  Object.values(models).forEach(model =>{
+    if(model.associate) {
+      model.associate(models);
+    }
+  });
 
 module.exports = models;

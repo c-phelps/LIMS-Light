@@ -23,5 +23,15 @@
     "methodName": "AOAC 2015.01 – Nutrients",
     "description": "Food nutrient analysis",
     "matrixName": "FOOD"
-  }
+  },
+  {
+    "methodName": "Total Solids in Sludge",
+    "description": "Determines the total solids content of sludge samples via drying and weighing.",
+    "matrixName": "SLUDGE"
+  },
+   {
+    "methodName": "Gravimetric – Solids",
+    "description": "Determination of total solids content in various matrices using gravimetric analysis.",
+    "matrixName": "SLUDGE"
+   }
 ]

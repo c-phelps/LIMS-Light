@@ -1,12 +1,7 @@
-/**
- * Centralized API helpers
- * - Keeps fetch logic out of components
- * - Easy to add auth headers later
- */
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // ---- SAMPLES ----
-
+// get/
 export async function getSamples() {
   const res = await fetch(`${API_BASE_URL}/samples`);
 
@@ -16,7 +11,7 @@ export async function getSamples() {
 
   return res.json();
 }
-
+// get/:id
 export async function getSampleById(sampleId) {
   const res = await fetch(`${API_BASE_URL}/samples/${sampleId}`);
   if (!res.ok) {
@@ -24,7 +19,7 @@ export async function getSampleById(sampleId) {
   }
   return res.json();
 }
-
+// post/
 export async function createSample(data){
   const res = await fetch(`${API_BASE_URL}/samples`, {
     method: "POST",
@@ -33,7 +28,7 @@ export async function createSample(data){
   });
   return res.json();
 }
-
+// put/:id
 export async function updateSample(sampleId, update) {
   const res = await fetch(`${API_BASE_URL}/samples/${sampleId}`, {
     method: "PUT",
@@ -42,7 +37,7 @@ export async function updateSample(sampleId, update) {
   });
   return res.json();
 }
-
+// delete/:id
 export async function deleteSample(sampleId) {
   const res = await fetch(`${API_BASE_URL}/samples/${sampleId}`, {
     method: "DELETE",
@@ -51,7 +46,6 @@ export async function deleteSample(sampleId) {
 }
 
 //  ---- RESULTS ----
-
 export async function getResultsBySample(sampleId) {
   const res = await fetch(`${API_BASE_URL}/results/sample/${sampleId}`);
 
@@ -87,7 +81,6 @@ export async function deleteResult(resultId) {
 }
 
 //  ---- METHODS ----
-
 export async function getMethods() {
   const res = await fetch(`${API_BASE_URL}/methods`);
   if (!res.ok) {

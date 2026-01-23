@@ -5,10 +5,28 @@ module.exports = (sequelize, DataTypes) => {
   const Sample = sequelize.define(
     "Sample",
     {
-      id: { type: DataTypes.UUID, defaultValue: DataTypes.UUIDV4, primaryKey: true },
-      sampleName: { type: DataTypes.STRING, allowNull: false, unique: true },
+      id: {
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
+        primaryKey: true,
+      },
+
+      sampleName: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+      },
+
+      matrixId: {
+        type: DataTypes.UUID,
+        allowNull: false,
+        references: {
+          model: "Matrices",
+          key: "id",
+        },
+      },
+
       sampleType: DataTypes.STRING,
-      matrix: DataTypes.ENUM("WATER", "SOIL", "AIR", "OTHER"),
       collectedBy: DataTypes.STRING,
       createdAt: DataTypes.DATE,
       receivedDate: DataTypes.DATE,
@@ -18,5 +36,19 @@ module.exports = (sequelize, DataTypes) => {
       hooks: auditHooks,
     },
   );
+
+  Sample.associate = (models) => {
+    Sample.belongsTo(models.Matrix, {
+      foreignKey: "matrixId",
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+    });
+
+    Sample.hasMany(models.Result, {
+      foreignKey: "sampleId",
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+    });
+  };
   return Sample;
 };

@@ -15,5 +15,11 @@
   { "analyteName": "Toluene", "analyteCode": "TOL", "description": "Volatile organic compound" },
 
   { "analyteName": "Protein", "analyteCode": "PROT", "description": "Total protein" },
-  { "analyteName": "Total Fat", "analyteCode": "FAT", "description": "Total fat content" }
+  { "analyteName": "Total Fat", "analyteCode": "FAT", "description": "Total fat content" },
+
+  { "analyteCode": "TS", "analyteName": "Total Solids", "description": "Total solids content of sludge" },
+  { "analyteCode": "VS", "analyteName": "Volatile Solids", "description": "Organic fraction of total solids" },
+  { "analyteCode": "TKN", "analyteName": "Total Kjeldahl Nitrogen", "description": "Sum of organic nitrogen and ammonium" },
+  { "analyteCode": "TP", "analyteName": "Total Phosphorus", "description": "Total phosphorus content" },
+  { "analyteCode": "TOC", "analyteName": "Total Organic Carbon", "description": "Carbon content from organic matter" }
 ]

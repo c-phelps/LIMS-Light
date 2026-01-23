@@ -1,893 +1,1037 @@
 [
   {
-    "id": "02a9c0c9-4f7d-470b-b74d-1972b3c91fd5",
-    "sampleId": "47e53a18-dff9-438a-9ee8-015d5cd8784c",
-    "methodId": 4,
-    "value": 74.4391075375052,
-    "status": "PENDING",
-    "approvedBy": "Berge",
-    "notes": "Adulatio acervus comes amplitudo."
-  },
-  {
-    "id": "29a41bf9-4eed-4b14-9b0c-b60be00036a2",
-    "sampleId": "47e53a18-dff9-438a-9ee8-015d5cd8784c",
-    "methodId": 4,
-    "value": 20.967956608270267,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Aufero somnus civitas vitae."
-  },
-  {
-    "id": "88ec46f1-c3fc-4b5f-b2e8-d9b2c7df7893",
-    "sampleId": "47e53a18-dff9-438a-9ee8-015d5cd8784c",
-    "methodId": 4,
-    "value": 44.85683917354878,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Demoror sufficio cometes socius summopere absorbeo cumque."
-  },
-  {
-    "id": "7af95aaa-e456-41c8-9003-f7a0cb334c7d",
-    "sampleId": "241c92ba-7f79-409b-b8f0-509d40f61281",
-    "methodId": 3,
-    "value": 72.28798506972882,
+    "id": "de931032-350c-4b46-9f5e-07e91c3d1827",
+    "sampleId": "a670d9c4-15a8-4dc8-8059-4cad7302700d",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 91.91627240407414,
     "status": "APPROVED",
     "approvedBy": "Berge",
-    "notes": "Vel audio texo statim atque ambulo ratione debilito cogito sono."
+    "notes": "Temporibus ait carcer attero victus paulatim curo eaque tracto vos."
   },
   {
-    "id": "76944647-fae2-46a8-a70c-87171e70f130",
-    "sampleId": "241c92ba-7f79-409b-b8f0-509d40f61281",
-    "methodId": 3,
-    "value": 1.8042724413537048,
+    "id": "c63489f1-3384-4212-adf6-b45d4cbc6218",
+    "sampleId": "a670d9c4-15a8-4dc8-8059-4cad7302700d",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 96.34885755095654,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Clibanus sortitus alveus caries utrum terreo nesciunt subnecto aegrotatio."
+  },
+  {
+    "id": "05077ec0-6bfc-4729-a323-f4c1ed306323",
+    "sampleId": "a670d9c4-15a8-4dc8-8059-4cad7302700d",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 16.160229952155248,
     "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Cognatus ademptio adeptio censura thermae coepi."
+    "approvedBy": "Pouros",
+    "notes": "Spiritus conturbo vilitas thema ipsa stella comes peccatus vindico solum."
   },
   {
-    "id": "3c08542b-b8ee-4b66-afd7-40f757828fce",
-    "sampleId": "558c5989-17a7-4421-ba0b-c6c073c880ed",
-    "methodId": 5,
-    "value": 44.32728689435209,
-    "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Vado modi sonitus enim viduo."
-  },
-  {
-    "id": "a263f46e-de39-42f5-81eb-8b7a7b5162db",
-    "sampleId": "558c5989-17a7-4421-ba0b-c6c073c880ed",
-    "methodId": 5,
-    "value": 19.63896925524211,
-    "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Cura cuius nulla atqui accusamus cattus administratio."
-  },
-  {
-    "id": "5aa25147-bb58-4d35-a877-b79372d1960f",
-    "sampleId": "2cf225f6-c1f4-43a1-a549-f53df57fc52d",
-    "methodId": 2,
-    "value": 88.33242637885749,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Doloremque quo ullus."
-  },
-  {
-    "id": "c2808be5-f31e-4d80-bd6e-6f72aa313bda",
-    "sampleId": "2cf225f6-c1f4-43a1-a549-f53df57fc52d",
-    "methodId": 2,
-    "value": 69.58140025640445,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Cresco audentia cultellus vulgaris eligendi complectus decet color."
-  },
-  {
-    "id": "e4295ba7-5ee8-42df-992d-3add530f6950",
-    "sampleId": "31abfe00-c7ed-4991-9ddf-d6c6955e6223",
-    "methodId": 5,
-    "value": 9.139305786689288,
-    "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Cogito aspernatur valde curia volva astrum demo conicio cinis."
-  },
-  {
-    "id": "d4b0e18d-6ccb-4579-9b5c-54875bccfeb4",
-    "sampleId": "31abfe00-c7ed-4991-9ddf-d6c6955e6223",
-    "methodId": 5,
-    "value": 30.343695074168696,
+    "id": "dc303f51-7a63-4be4-9387-8638cadc22b7",
+    "sampleId": "a670d9c4-15a8-4dc8-8059-4cad7302700d",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 10.302776178656536,
     "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Cupio creptio aspernatur sortitus itaque celer adeo audax."
+    "approvedBy": "Pouros",
+    "notes": "Cohors tricesimus adsidue benigne spoliatio."
   },
   {
-    "id": "371aad94-5b91-44f5-835f-7102f68f8962",
-    "sampleId": "7ac53f92-b663-45be-aa48-e61100b8e396",
-    "methodId": 4,
-    "value": 29.217059151639933,
+    "id": "89f2132b-792e-4146-acfe-2c6278335822",
+    "sampleId": "a670d9c4-15a8-4dc8-8059-4cad7302700d",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 61.68201561163441,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Consequatur adipiscor demonstro praesentium totam alias arto talus."
+  },
+  {
+    "id": "774c5cf2-da6b-4471-98a9-0086ec3849c3",
+    "sampleId": "fcbdcd10-4462-46be-af95-b67bd939da9d",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 73.05246137489134,
     "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Perspiciatis suppellex cornu defessus."
+    "approvedBy": "Koepp",
+    "notes": "Delego ciminatio animi."
   },
   {
-    "id": "cd8d6ea5-6901-4fd5-b4cb-6bf5f6dc292b",
-    "sampleId": "a3b32431-20a8-4a24-9372-9c45e6f9a8f4",
-    "methodId": 7,
-    "value": 78.00386383536855,
-    "status": "APPROVED",
-    "approvedBy": "Breitenberg",
-    "notes": "Sit volaticus tabula carus accusantium amor vehemens."
-  },
-  {
-    "id": "607e8a3a-d7ee-4b27-91d7-484d0b939700",
-    "sampleId": "a3b32431-20a8-4a24-9372-9c45e6f9a8f4",
-    "methodId": 7,
-    "value": 52.58781381570999,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Tenuis convoco vestrum denego tamdiu cerno voluntarius ciminatio voluptatum."
-  },
-  {
-    "id": "5ebecd9a-3758-4ff3-ac2a-250ea2b1cedb",
-    "sampleId": "481ec3e6-035c-43ed-9274-7acf96c90e6a",
-    "methodId": 3,
-    "value": 87.55681231583416,
+    "id": "a084509e-1478-4a99-903c-f234fc7b1b91",
+    "sampleId": "fcbdcd10-4462-46be-af95-b67bd939da9d",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 84.75216356678239,
     "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Confero adipiscor cruciamentum."
+    "approvedBy": "Blanda",
+    "notes": "Assumenda attero solum beatae verumtamen vito."
   },
   {
-    "id": "a8ebb4e6-51d2-4f7c-a9b8-cc2a40cb16dd",
-    "sampleId": "d4acd839-5465-4b67-a5e2-9a743cdfa4e5",
-    "methodId": 4,
-    "value": 13.583205072144967,
-    "status": "APPROVED",
-    "approvedBy": "Breitenberg",
-    "notes": "Comburo vito et sophismata quod textus adsum vergo carbo."
-  },
-  {
-    "id": "d19d06f7-6ef0-4cb0-b1c6-1caa7e08d0a9",
-    "sampleId": "7dac3734-2029-4fb4-abb9-cfbea255c0f3",
-    "methodId": 5,
-    "value": 79.54073205949122,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Comminor creator umerus aeger."
-  },
-  {
-    "id": "39c9fb03-8ca1-4704-bf88-c8f909f5f018",
-    "sampleId": "72a7dcf8-2078-40e2-a044-df84e214cd60",
-    "methodId": 5,
-    "value": 12.581082938288535,
-    "status": "REJECTED",
-    "approvedBy": "Mueller",
-    "notes": "Cum quas creo compono."
-  },
-  {
-    "id": "e7e90c8c-7f93-4d6e-ab5e-7688359221e3",
-    "sampleId": "72a7dcf8-2078-40e2-a044-df84e214cd60",
-    "methodId": 5,
-    "value": 74.17541145400547,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Aegrus tamen terebro pectus angustus."
-  },
-  {
-    "id": "3cfa747f-a92e-41ea-9c60-66c4d829a027",
-    "sampleId": "72a7dcf8-2078-40e2-a044-df84e214cd60",
-    "methodId": 5,
-    "value": 75.79520751179672,
-    "status": "APPROVED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Venia adimpleo tergeo adiuvo demergo coma desino audentia."
-  },
-  {
-    "id": "2e78d18e-dcb2-46b6-b775-deaa4f7b82af",
-    "sampleId": "c37b2e6f-c93a-4806-aac3-79b87c0ec097",
-    "methodId": 4,
-    "value": 39.815502551873394,
-    "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Arma suffragium uredo."
-  },
-  {
-    "id": "726a4cfe-a7ea-43f0-96e4-50cb07a36853",
-    "sampleId": "c37b2e6f-c93a-4806-aac3-79b87c0ec097",
-    "methodId": 4,
-    "value": 84.75517527631573,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Deficio cupiditate creo corrumpo utilis adaugeo tergeo video artificiose."
-  },
-  {
-    "id": "37ff1190-aa59-441b-a1c9-c414fecc0ff3",
-    "sampleId": "c37b2e6f-c93a-4806-aac3-79b87c0ec097",
-    "methodId": 4,
-    "value": 11.500264767892487,
-    "status": "APPROVED",
-    "approvedBy": "Wilderman",
-    "notes": "Tenax accusator pauper torrens illum speciosus tenuis sumptus cauda."
-  },
-  {
-    "id": "42566983-3f9d-4399-96ad-1baf81e3b6f1",
-    "sampleId": "f5f47f78-5a58-4cf8-ae2a-9f2885830fa5",
-    "methodId": 7,
-    "value": 52.29461768133129,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "At templum comptus conqueror venia sordeo aperio inventore contego."
-  },
-  {
-    "id": "488952ad-e7ab-49a8-b56e-eefc605d8769",
-    "sampleId": "da41f73a-9e4f-4015-a3f8-afc4851b4379",
-    "methodId": 7,
-    "value": 30.075536697753304,
-    "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Temeritas calculus totidem demergo trado beatus cursus inflammatio comprehendo derideo."
-  },
-  {
-    "id": "ec09bbd2-7c20-49c5-b860-7643f1690109",
-    "sampleId": "da41f73a-9e4f-4015-a3f8-afc4851b4379",
-    "methodId": 7,
-    "value": 40.62884109982091,
-    "status": "PENDING",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Sursum cibus cupiditas."
-  },
-  {
-    "id": "c37b57f7-cc44-4f87-aa47-e612239d93dd",
-    "sampleId": "339d7499-db52-4fbb-b394-08b4d837563d",
-    "methodId": 1,
-    "value": 16.487201055558963,
-    "status": "REJECTED",
-    "approvedBy": "Mueller",
-    "notes": "Cena arcesso possimus adsum."
-  },
-  {
-    "id": "a7e27b0d-88cf-4488-ba5f-b81651c333a5",
-    "sampleId": "339d7499-db52-4fbb-b394-08b4d837563d",
-    "methodId": 1,
-    "value": 45.31862562247323,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Arceo esse cupressus color."
-  },
-  {
-    "id": "431c1762-9d8a-4268-842b-406140b0e6a5",
-    "sampleId": "339d7499-db52-4fbb-b394-08b4d837563d",
-    "methodId": 1,
-    "value": 44.77108427782996,
-    "status": "APPROVED",
-    "approvedBy": "Wilderman",
-    "notes": "Tot coruscus paulatim correptius ago conspergo suus cumque."
-  },
-  {
-    "id": "c4e2f359-aeda-4a30-b383-e4718e0458a4",
-    "sampleId": "0d5f6960-a782-4009-a17a-230996f2b3f9",
-    "methodId": 3,
-    "value": 79.27582888904642,
-    "status": "PENDING",
-    "approvedBy": "Mueller",
-    "notes": "Absum caelum cicuta abscido adulescens."
-  },
-  {
-    "id": "cd41929d-a105-4756-ba36-91ae1c5b9431",
-    "sampleId": "0d5f6960-a782-4009-a17a-230996f2b3f9",
-    "methodId": 3,
-    "value": 17.777314484996086,
-    "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Repellendus templum tabella cunctatio avaritia ceno."
-  },
-  {
-    "id": "73cb43a9-512b-4686-8a71-c4a775fcf358",
-    "sampleId": "f16b1240-6c20-4115-b8f5-69648769e9c5",
-    "methodId": 6,
-    "value": 77.24585032055643,
-    "status": "APPROVED",
-    "approvedBy": "Breitenberg",
-    "notes": "Quam conscendo perspiciatis sit delibero auctor rem aegrus damnatio."
-  },
-  {
-    "id": "b7e1d39e-f9a0-441c-aa4e-80ad0f32bf8a",
-    "sampleId": "f16b1240-6c20-4115-b8f5-69648769e9c5",
-    "methodId": 6,
-    "value": 29.816099902715663,
-    "status": "REJECTED",
-    "approvedBy": "Mueller",
-    "notes": "Accedo ducimus virgo audeo temporibus condico adstringo."
-  },
-  {
-    "id": "8e10e3e5-cfff-4318-b1bc-270979eb422b",
-    "sampleId": "2c0ac091-fa32-4d64-aad7-e683454cd550",
-    "methodId": 1,
-    "value": 84.17848630963576,
-    "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Ars volup tunc sortitus temptatio deserunt."
-  },
-  {
-    "id": "a3d38762-2f89-4391-912e-b3633fa0a55e",
-    "sampleId": "2c0ac091-fa32-4d64-aad7-e683454cd550",
-    "methodId": 1,
-    "value": 95.16563070151503,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Vomica civis arbustum demulceo voluptates claudeo."
-  },
-  {
-    "id": "f839e98f-77bb-4fa8-9c6d-f98caa95c472",
-    "sampleId": "2c0ac091-fa32-4d64-aad7-e683454cd550",
-    "methodId": 1,
-    "value": 62.13085446444977,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Sol utpote utilis aegrus."
-  },
-  {
-    "id": "7ef8beeb-bae7-4b76-85a4-8868d1f42e6f",
-    "sampleId": "f75f05d7-be3c-435b-a948-3dbbf4f16050",
-    "methodId": 5,
-    "value": 87.65966140384316,
-    "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Bardus auxilium subito corrigo temptatio laboriosam calculus vilis."
-  },
-  {
-    "id": "a4eb157e-7b0a-49de-8dc0-5f2231d5a31e",
-    "sampleId": "f75f05d7-be3c-435b-a948-3dbbf4f16050",
-    "methodId": 5,
-    "value": 29.41370119245069,
-    "status": "APPROVED",
-    "approvedBy": "Berge",
-    "notes": "Ars avarus voluntarius angulus."
-  },
-  {
-    "id": "8d548f76-8a96-477f-b1f3-2329ba37824c",
-    "sampleId": "9b2db4fe-3755-4725-8c7c-537ebd76a186",
-    "methodId": 4,
-    "value": 13.657786747412636,
-    "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Currus vinum vesco sonitus."
-  },
-  {
-    "id": "72400a61-3fc2-4869-9a8d-27cc9f0321f2",
-    "sampleId": "9b2db4fe-3755-4725-8c7c-537ebd76a186",
-    "methodId": 4,
-    "value": 82.92688035652922,
-    "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Tempore eum ullus ullus carbo alveus."
-  },
-  {
-    "id": "a7c40d0b-0095-4508-9683-299d2621eb7d",
-    "sampleId": "9b2db4fe-3755-4725-8c7c-537ebd76a186",
-    "methodId": 4,
-    "value": 19.296686922909522,
-    "status": "PENDING",
-    "approvedBy": "Wilderman",
-    "notes": "Cupio textilis apto video audeo eligendi."
-  },
-  {
-    "id": "cc82eecb-6cc4-4472-a9ed-c99a34a6e337",
-    "sampleId": "6b059437-fd52-40d3-affe-6c67b3d9352c",
-    "methodId": 7,
-    "value": 3.063979811046613,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Volaticus alii voluptatem vomica."
-  },
-  {
-    "id": "b1d05b89-1a22-4694-bde2-aaea4c4c7e9d",
-    "sampleId": "466f69e4-6320-42d3-b31c-967104fe7f4b",
-    "methodId": 3,
-    "value": 20.427220230820687,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Demo iure exercitationem dolor astrum."
-  },
-  {
-    "id": "aa0d02cd-6b8d-4ec6-8ec4-8299ef32f981",
-    "sampleId": "466f69e4-6320-42d3-b31c-967104fe7f4b",
-    "methodId": 3,
-    "value": 68.4289548489068,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Baiulus suspendo apostolus claro solum."
-  },
-  {
-    "id": "9f995f97-5df8-4ea4-b6c8-5304881b6c1b",
-    "sampleId": "466f69e4-6320-42d3-b31c-967104fe7f4b",
-    "methodId": 3,
-    "value": 40.097996333027275,
+    "id": "8690e122-ce6d-40ef-842a-afafb656f4f9",
+    "sampleId": "fcbdcd10-4462-46be-af95-b67bd939da9d",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 77.80540453483327,
     "status": "PENDING",
     "approvedBy": "Berge",
-    "notes": "Usque atque tot taceo desipio error bellum."
+    "notes": "Corrigo aggredior aliquid validus corpus coma."
   },
   {
-    "id": "dd552e7b-c89b-4ec8-872a-34cd152c0c08",
-    "sampleId": "c73dcc4c-ad53-4a95-adbe-bfeb37478be3",
-    "methodId": 5,
-    "value": 97.28302595601993,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Acies cavus voluptatum omnis rerum."
-  },
-  {
-    "id": "8a7aab2d-8d50-4ff5-9689-3e6d5117de0c",
-    "sampleId": "c73dcc4c-ad53-4a95-adbe-bfeb37478be3",
-    "methodId": 5,
-    "value": 35.623910698205684,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Pax distinctio callide debilito placeat articulus calamitas vilitas cunctatio bibo."
-  },
-  {
-    "id": "caa8a964-7973-47b0-8a87-dcccde77c433",
-    "sampleId": "e2805c2c-c01c-4504-9981-62b008325688",
-    "methodId": 3,
-    "value": 28.359861237449067,
+    "id": "22200ccf-49c1-4fa4-beff-0f8a37640aa9",
+    "sampleId": "fcbdcd10-4462-46be-af95-b67bd939da9d",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 82.09374488188826,
     "status": "PENDING",
-    "approvedBy": "Wilderman",
-    "notes": "Sustineo confido aeternus necessitatibus vinum credo tenuis aspicio ullam."
+    "approvedBy": "Blick",
+    "notes": "Usitas adinventitias arcesso vilis laborum iste deporto dolor theatrum."
   },
   {
-    "id": "f2d93f83-6643-45f8-a70b-36dc1bc2d619",
-    "sampleId": "e2805c2c-c01c-4504-9981-62b008325688",
-    "methodId": 3,
-    "value": 32.81184804405353,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Bellum super tonsor supellex."
-  },
-  {
-    "id": "c1bab115-3b25-4aa9-9f9e-d1089a6f9c40",
-    "sampleId": "9095ec3f-21b9-43cc-b411-60eec6c05854",
-    "methodId": 5,
-    "value": 52.460103002922,
-    "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Coerceo venustas desparatus caute iure sum conculco torqueo sperno."
-  },
-  {
-    "id": "9805727a-2cf7-49d9-8600-89543b5df0b2",
-    "sampleId": "9095ec3f-21b9-43cc-b411-60eec6c05854",
-    "methodId": 5,
-    "value": 95.40363986837488,
+    "id": "03b83b08-9731-4aaf-8774-00071380543e",
+    "sampleId": "7dc46c1b-66cb-448f-952d-0f7e7519d7ea",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 86.62168625794038,
     "status": "APPROVED",
-    "approvedBy": "Wilderman",
-    "notes": "Volup verus viriliter cunabula tepesco centum advenio trado arbitro tenuis."
+    "approvedBy": "Blick",
+    "notes": "Correptius solvo tergiversatio succurro ancilla natus balbus alius cruciamentum."
   },
   {
-    "id": "90b3a410-af02-49b5-8a1d-b180b57334f0",
-    "sampleId": "9095ec3f-21b9-43cc-b411-60eec6c05854",
-    "methodId": 5,
-    "value": 92.8500907034356,
+    "id": "e8e3b60a-7732-476f-99a4-67913bc17d36",
+    "sampleId": "7dc46c1b-66cb-448f-952d-0f7e7519d7ea",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 79.76307871754813,
     "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Defleo tenetur approbo."
+    "approvedBy": "Champlin",
+    "notes": "Videlicet debeo conventus adeo cumque temeritas."
   },
   {
-    "id": "f5706ca0-bd48-41f6-9e10-4a1c02f8235d",
-    "sampleId": "794a18bb-31e6-40a3-a7b9-7053672c1bf0",
-    "methodId": 2,
-    "value": 9.755945875280691,
+    "id": "42f6ba84-b40a-4f54-a8f3-0ff905a9efe0",
+    "sampleId": "32dc4325-c492-4375-a15b-abdb4bec31f5",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 99.11178661290603,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Alii thymum nisi umbra adipisci."
+  },
+  {
+    "id": "d01b55b4-32a6-4617-9b31-f5e8e6f9c00c",
+    "sampleId": "32dc4325-c492-4375-a15b-abdb4bec31f5",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 41.61417553458211,
     "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Adulatio virga brevis ancilla aurum stips."
+    "approvedBy": "Blick",
+    "notes": "Cilicium decerno statua deputo officiis comburo."
   },
   {
-    "id": "69869772-28f8-49ac-9c84-59b8b14be44b",
-    "sampleId": "794a18bb-31e6-40a3-a7b9-7053672c1bf0",
-    "methodId": 2,
-    "value": 11.657472884760733,
+    "id": "2487722f-cff2-4350-970d-101e2d3004a5",
+    "sampleId": "acaca5a2-9a35-4ec3-910a-988641af4bcb",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 36.97729883270423,
     "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Currus totus adeo adulescens considero."
+    "approvedBy": "Pouros",
+    "notes": "Centum adimpleo angulus curiositas careo ater."
   },
   {
-    "id": "3a50ae32-43fa-4892-8e05-b4a40a36199a",
-    "sampleId": "911b9cc6-2d5a-4f7d-aa19-3297f1898259",
-    "methodId": 3,
-    "value": 37.76318688223641,
+    "id": "8ed1b094-0d42-4702-a620-c7c5d40232c5",
+    "sampleId": "acaca5a2-9a35-4ec3-910a-988641af4bcb",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 11.56070953521855,
     "status": "APPROVED",
-    "approvedBy": "Wilderman",
-    "notes": "Creta villa cura canonicus alias animi ab."
+    "approvedBy": "Blanda",
+    "notes": "Titulus conventus vacuus cognatus vergo sopor possimus congregatio."
   },
   {
-    "id": "ec619f5a-99d6-4e65-9788-93fe097317f3",
-    "sampleId": "911b9cc6-2d5a-4f7d-aa19-3297f1898259",
-    "methodId": 3,
-    "value": 53.08619771969576,
-    "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Quos timidus circumvenio theatrum atrocitas video spectaculum defungo tamen."
-  },
-  {
-    "id": "1994dbb9-9749-4e67-94f4-0d4148435e77",
-    "sampleId": "506c0a1b-f529-4ba9-a32c-507e22f13e61",
-    "methodId": 6,
-    "value": 1.6431634769091374,
-    "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Civis argumentum cohibeo nisi tantillus carmen."
-  },
-  {
-    "id": "0e3f2449-fafa-4cf1-946f-cc770f3ae034",
-    "sampleId": "506c0a1b-f529-4ba9-a32c-507e22f13e61",
-    "methodId": 6,
-    "value": 12.113257963590174,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Curtus amaritudo coadunatio allatus."
-  },
-  {
-    "id": "c1e0e862-c0f5-4a4b-b5d4-48672f9158bd",
-    "sampleId": "d3d667f3-8ee7-416d-b130-063342b5497c",
-    "methodId": 7,
-    "value": 95.86503120013617,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Caecus culpa accommodo absque amet solus earum est succedo."
-  },
-  {
-    "id": "fdb529c6-fb89-4515-a556-12114e018b9d",
-    "sampleId": "d3d667f3-8ee7-416d-b130-063342b5497c",
-    "methodId": 7,
-    "value": 3.6061434553576577,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Vigilo cerno sui solitudo vis trans perspiciatis confido talio."
-  },
-  {
-    "id": "1018fc57-06ce-4a39-9d98-e412c3e10bc5",
-    "sampleId": "d3d667f3-8ee7-416d-b130-063342b5497c",
-    "methodId": 7,
-    "value": 14.765900390823038,
-    "status": "PENDING",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Tenetur valde thalassinus capillus comburo."
-  },
-  {
-    "id": "2e3a4924-c461-402e-82ef-fdcc724deb44",
-    "sampleId": "993ca6ee-48d4-4f0f-b5b2-a5f61aba2603",
-    "methodId": 1,
-    "value": 94.09713118203193,
+    "id": "0056a124-3187-4052-8ff9-c0270ed957b9",
+    "sampleId": "f46f0b3d-92a8-4ae7-91e5-c3a7849ca0aa",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 90.14941178439472,
     "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Sapiente ea absque perspiciatis."
+    "approvedBy": "Blick",
+    "notes": "Delicate timidus sono titulus vesica subseco nam sophismata celebrer."
   },
   {
-    "id": "c9dfa112-d406-4e1f-ad1d-da4e620e8da0",
-    "sampleId": "254ee9f7-3949-4309-9402-1de02b31cd63",
-    "methodId": 1,
-    "value": 65.1799457265381,
+    "id": "27769cb2-34d0-4ccf-a9f4-22f999dcef79",
+    "sampleId": "f46f0b3d-92a8-4ae7-91e5-c3a7849ca0aa",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 98.95482337190337,
     "status": "PENDING",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Decumbo vulnero magni."
+    "approvedBy": "Blanda",
+    "notes": "Tabesco aegrus cohors creator summisse."
   },
   {
-    "id": "4bc6339e-99c0-43e0-aad4-b24cbeb03bf3",
-    "sampleId": "00e3815a-0ba0-4587-ae59-0d6d67df4469",
-    "methodId": 8,
-    "value": 12.550742605021814,
-    "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Xiphias acidus subseco barba cunae sopor vorax sponte administratio."
-  },
-  {
-    "id": "f94fa7b2-a532-4049-b115-d8d0b4f41aaf",
-    "sampleId": "50534df9-18c8-41d4-96a9-c6ae24de6a79",
-    "methodId": 5,
-    "value": 30.067783732109866,
+    "id": "0c23b255-319d-435c-94f7-8f5915e69ee9",
+    "sampleId": "9d254dad-8323-402b-9b1e-b486c03a9550",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 10.15685140989575,
     "status": "PENDING",
-    "approvedBy": "Mueller",
-    "notes": "Tyrannus aureus nihil tum tripudio desipio vilitas desolo adflicto."
+    "approvedBy": "Pouros",
+    "notes": "Aer ventosus tego."
   },
   {
-    "id": "2efb45b2-128b-47eb-8a81-a7eff67031e2",
-    "sampleId": "bbee6efe-3937-43bc-a5c4-53d5fccc5b31",
-    "methodId": 3,
-    "value": 81.62965197149133,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Aufero trucido volaticus vestigium incidunt cometes vomer vomica excepturi demo."
-  },
-  {
-    "id": "56d2c9bd-38b1-4f91-b9b5-5d6e9b00a79e",
-    "sampleId": "99bc012a-3f63-4afd-af0f-6fcd4e607e75",
-    "methodId": 4,
-    "value": 96.05332268743143,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Omnis dedico clibanus aestus sequi amitto decumbo paulatim harum."
-  },
-  {
-    "id": "d8897db8-c62c-43d1-8311-3144a1d18aed",
-    "sampleId": "99bc012a-3f63-4afd-af0f-6fcd4e607e75",
-    "methodId": 4,
-    "value": 72.2835057786318,
+    "id": "f485c37b-3d2b-4b6e-8a90-05df45decf09",
+    "sampleId": "9d254dad-8323-402b-9b1e-b486c03a9550",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 86.63944196309622,
     "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Ancilla depraedor charisma traho succedo articulus vinco."
+    "approvedBy": "Blanda",
+    "notes": "Adsuesco cedo cruentus vinco id at cicuta vado dolorum."
   },
   {
-    "id": "de1d39fb-db62-45de-99cf-e24ab446cf67",
-    "sampleId": "9d09bd37-3fd9-4c0f-922a-51338a8808fa",
-    "methodId": 7,
-    "value": 68.03460661017158,
+    "id": "420d5b99-9969-480c-bee4-d61f89dffa41",
+    "sampleId": "9d254dad-8323-402b-9b1e-b486c03a9550",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 22.81962328853291,
     "status": "APPROVED",
     "approvedBy": "Berge",
-    "notes": "Sollers tantillus ocer demo."
+    "notes": "Vinco facere virgo qui tibi expedita cui virgo sollicito ubi."
   },
   {
-    "id": "a0899065-3a3f-44c1-a8d2-5abc74122026",
-    "sampleId": "9d09bd37-3fd9-4c0f-922a-51338a8808fa",
-    "methodId": 7,
-    "value": 37.26724434242724,
-    "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Undique recusandae toties."
-  },
-  {
-    "id": "688848e4-7122-4bca-bf1c-8327592f6cbb",
-    "sampleId": "9d09bd37-3fd9-4c0f-922a-51338a8808fa",
-    "methodId": 7,
-    "value": 75.45599767575587,
-    "status": "REJECTED",
-    "approvedBy": "Wilderman",
-    "notes": "Eaque conitor patruus crur."
-  },
-  {
-    "id": "e242c8a5-618b-44c4-8a13-b06fe9ddb7e0",
-    "sampleId": "245342af-0e78-4d4a-ba0c-629cab9f50a8",
-    "methodId": 8,
-    "value": 50.941526070054266,
-    "status": "APPROVED",
-    "approvedBy": "Pacocha",
-    "notes": "Vitae explicabo demitto ancilla aggero correptius vesper cresco bene accommodo."
-  },
-  {
-    "id": "68acb15f-32d7-4ac1-836d-4d9e898a9a39",
-    "sampleId": "5a46ac5e-6341-4238-8cd7-1359cd00e12e",
-    "methodId": 5,
-    "value": 90.82089323292946,
+    "id": "151085e0-ba3e-4cb7-8518-806077364bdf",
+    "sampleId": "9d254dad-8323-402b-9b1e-b486c03a9550",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 93.02183390055198,
     "status": "PENDING",
-    "approvedBy": "Berge",
-    "notes": "Ulterius suffragium quos angelus suppono nesciunt denego veritatis."
+    "approvedBy": "Koepp",
+    "notes": "Utrimque spiculum stella."
   },
   {
-    "id": "73ce6dd9-f4ec-4f45-b46a-409772797137",
-    "sampleId": "5a46ac5e-6341-4238-8cd7-1359cd00e12e",
-    "methodId": 5,
-    "value": 48.338011146444,
-    "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Urbanus nihil velum tabula tantum."
-  },
-  {
-    "id": "88cda040-06e9-4514-ad8d-d048646c6e0a",
-    "sampleId": "bfc4b309-8d7e-4e00-9378-aa5297e68702",
-    "methodId": 1,
-    "value": 7.295822051608281,
-    "status": "APPROVED",
-    "approvedBy": "Breitenberg",
-    "notes": "Tripudio desidero caute animus."
-  },
-  {
-    "id": "be1cc3d7-eb37-4445-8db9-49738de08616",
-    "sampleId": "bfc4b309-8d7e-4e00-9378-aa5297e68702",
-    "methodId": 1,
-    "value": 83.45211757883797,
-    "status": "REJECTED",
-    "approvedBy": "Berge",
-    "notes": "Curto abutor spiritus."
-  },
-  {
-    "id": "522dbf17-7002-4b29-a661-cccc548af253",
-    "sampleId": "8beb5145-fbfa-43b9-b196-6a5fc8c39d4b",
-    "methodId": 8,
-    "value": 3.624352793680674,
-    "status": "APPROVED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Pecco ipsum turbo terreo."
-  },
-  {
-    "id": "b8ca75a2-4f6e-44e3-863c-cfcf11684c69",
-    "sampleId": "8beb5145-fbfa-43b9-b196-6a5fc8c39d4b",
-    "methodId": 8,
-    "value": 31.28120891291426,
-    "status": "PENDING",
-    "approvedBy": "Berge",
-    "notes": "Solutio supra ipsum aeger."
-  },
-  {
-    "id": "d2fc65d3-1392-4e77-9bfd-8e2b3946467f",
-    "sampleId": "a84929e7-391b-4406-8638-4b6309e7de01",
-    "methodId": 8,
-    "value": 7.571140619386007,
-    "status": "APPROVED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Degero creptio solium complectus."
-  },
-  {
-    "id": "3627007b-130b-469e-b17d-5d7aa0f96cdb",
-    "sampleId": "a84929e7-391b-4406-8638-4b6309e7de01",
-    "methodId": 8,
-    "value": 43.97479361741351,
-    "status": "APPROVED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Vaco eum casso."
-  },
-  {
-    "id": "214edb52-81e5-42ba-8053-cf1dd49d2c80",
-    "sampleId": "f330c625-a6c8-4bc0-a573-661acb056710",
-    "methodId": 3,
-    "value": 92.81262354099132,
+    "id": "e2488958-9c63-4fac-bdec-f29a67d9b493",
+    "sampleId": "9d254dad-8323-402b-9b1e-b486c03a9550",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 8.143309875642524,
     "status": "APPROVED",
     "approvedBy": "Berge",
-    "notes": "Complectus occaecati delicate abstergo."
+    "notes": "Catena officia suffragium compello adipiscor rerum colligo."
   },
   {
-    "id": "2a4d0cf3-0d5b-4b12-9bb0-bda327c7d84b",
-    "sampleId": "ce932ebc-fba2-4cd8-854b-7a0b7b513f48",
-    "methodId": 3,
-    "value": 26.488786753649883,
+    "id": "706c7075-4427-4a44-b09e-a841b00d9910",
+    "sampleId": "69bf2fa6-f53e-4f3e-a513-d8931dd8ecf1",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 43.469322607783525,
+    "status": "PENDING",
+    "approvedBy": "Pouros",
+    "notes": "Quasi solutio aiunt utor sopor corroboro."
+  },
+  {
+    "id": "319ed69c-a4e0-4789-9c02-c455bf37ff0d",
+    "sampleId": "69bf2fa6-f53e-4f3e-a513-d8931dd8ecf1",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 89.64983027286341,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Dens defero solium suppono."
+  },
+  {
+    "id": "8082bf9a-9bd7-4fb6-8a72-e98a00f9a06b",
+    "sampleId": "69bf2fa6-f53e-4f3e-a513-d8931dd8ecf1",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 10.642136748010122,
+    "status": "PENDING",
+    "approvedBy": "Berge",
+    "notes": "Pauper theatrum civitas arca occaecati turpis taedium alienus ter cibo."
+  },
+  {
+    "id": "85299a52-397f-4e11-a4ea-8b8dd3d1ccbf",
+    "sampleId": "69bf2fa6-f53e-4f3e-a513-d8931dd8ecf1",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 7.5447735769363256,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Adamo velut charisma adfectus quia tego advenio ara."
+  },
+  {
+    "id": "6470c6a9-7d0e-497c-9b88-f89392202393",
+    "sampleId": "7acf4300-619d-4d2b-975a-6f29da5c9127",
+    "methodAnalyteId": "629554f4-d81f-46f1-9493-f255a246c151",
+    "value": 17.769784141963317,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Impedit aestivus assentator hic maxime atrocitas sophismata socius."
+  },
+  {
+    "id": "4c6fcded-cdaa-4caa-8298-ca9521987b5f",
+    "sampleId": "5ea3b503-593e-400f-8b9c-f8d9ff2fbc32",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 80.88892306713312,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Error adfectus eum despecto suasoria surculus laboriosam vorax tolero ventosus."
+  },
+  {
+    "id": "9e4f2946-ad4f-4269-9a3f-a1265c62a5ef",
+    "sampleId": "5ea3b503-593e-400f-8b9c-f8d9ff2fbc32",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 79.70308225571962,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Facere uter terra thema vomica tui tamquam absorbeo."
+  },
+  {
+    "id": "d8dc5d30-aaff-47c5-90a0-7d13b8f1e36c",
+    "sampleId": "3b50e73a-2306-473d-8690-fb3733303319",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 63.86914641406358,
+    "status": "APPROVED",
+    "approvedBy": "Blanda",
+    "notes": "Volubilis desipio aufero abbas."
+  },
+  {
+    "id": "ef5d822e-ca3f-4754-a0f6-b3f020f91cb2",
+    "sampleId": "3b50e73a-2306-473d-8690-fb3733303319",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 77.58405444929421,
+    "status": "APPROVED",
+    "approvedBy": "Blanda",
+    "notes": "Abeo suus terror coadunatio aer cogo."
+  },
+  {
+    "id": "48e6c0db-9b84-41b9-955f-6e0df8c3e731",
+    "sampleId": "3b50e73a-2306-473d-8690-fb3733303319",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 52.5619917642664,
+    "status": "PENDING",
+    "approvedBy": "Pouros",
+    "notes": "Coruscus pel dens adimpleo adipiscor aliquam amiculum."
+  },
+  {
+    "id": "f73253f2-5274-45a5-aa0d-fbc3ff372249",
+    "sampleId": "3b50e73a-2306-473d-8690-fb3733303319",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 15.163997982913724,
     "status": "APPROVED",
     "approvedBy": "Berge",
-    "notes": "Bos claustrum depono suadeo volaticus casus talis tabernus."
+    "notes": "Tempore tam vociferor strues cubicularis adipiscor spiculum verus conventus."
   },
   {
-    "id": "d853680f-6053-4708-9413-621066b370e1",
-    "sampleId": "ce932ebc-fba2-4cd8-854b-7a0b7b513f48",
-    "methodId": 3,
-    "value": 70.26890966088949,
+    "id": "1418080b-0be6-47f6-8243-529e3dbf8582",
+    "sampleId": "5bddc5ea-0d0a-4ffb-a239-45038d8fc1dd",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 18.598934656163756,
     "status": "REJECTED",
-    "approvedBy": "Breitenberg",
-    "notes": "Sursum advoco asper iusto repudiandae claustrum curto votum surculus."
+    "approvedBy": "Champlin",
+    "notes": "Suggero non facere timidus vereor arca."
   },
   {
-    "id": "edb848ea-88ca-4e40-abfe-685f1958b997",
-    "sampleId": "0d3ea311-8e07-4e8f-bb4f-c02122e9a03b",
-    "methodId": 6,
-    "value": 72.328308348505,
+    "id": "387ed409-1189-40ab-a581-af8dbe86ce76",
+    "sampleId": "5bddc5ea-0d0a-4ffb-a239-45038d8fc1dd",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 72.04602454074632,
+    "status": "APPROVED",
+    "approvedBy": "Blanda",
+    "notes": "Congregatio adicio tabella tabgo."
+  },
+  {
+    "id": "e7e0334a-3d3b-4497-8051-a3604a4ae31e",
+    "sampleId": "5bddc5ea-0d0a-4ffb-a239-45038d8fc1dd",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 11.928144647362382,
     "status": "REJECTED",
-    "approvedBy": "Mueller",
-    "notes": "Creber quasi textor conservo deludo ventus usitas decet."
+    "approvedBy": "Berge",
+    "notes": "Curia clementia porro cibo vester sperno caries venio aurum."
   },
   {
-    "id": "50f0c122-7983-4fe0-9999-04b94cf922d6",
-    "sampleId": "021c2c69-dec8-435f-99e6-7e0e856c3c20",
-    "methodId": 1,
-    "value": 32.907719348199926,
+    "id": "53934c55-d545-4cdf-933f-2b7ec241390d",
+    "sampleId": "5bddc5ea-0d0a-4ffb-a239-45038d8fc1dd",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 63.05617329947726,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Terminatio ocer alo amor tyrannus synagoga thalassinus brevis tamdiu arcus."
+  },
+  {
+    "id": "7a4288c4-1ab9-4f88-892b-fe1820d55d43",
+    "sampleId": "5bddc5ea-0d0a-4ffb-a239-45038d8fc1dd",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 85.21083229647664,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Trado aranea canonicus denique templum arcesso."
+  },
+  {
+    "id": "fa738a87-31fc-4905-9453-cd30868c4845",
+    "sampleId": "94c59b61-4f21-44c5-a006-0996d51a5d8f",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 89.94584809538476,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Altus tabesco socius error."
+  },
+  {
+    "id": "172231d2-daac-4e87-a943-5b310ce31baa",
+    "sampleId": "94c59b61-4f21-44c5-a006-0996d51a5d8f",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 68.29233610940678,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Vulgo auctus abutor videlicet tactus cultura vomito."
+  },
+  {
+    "id": "2de27780-be93-4368-aa12-1c844ba8161d",
+    "sampleId": "0ea09d0b-88e6-4a80-881f-edff896de5dd",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 63.45306722098395,
+    "status": "APPROVED",
+    "approvedBy": "Koepp",
+    "notes": "Communis culpa volutabrum thesis."
+  },
+  {
+    "id": "b36ad43b-a368-4029-b846-02787a73d2cd",
+    "sampleId": "0ea09d0b-88e6-4a80-881f-edff896de5dd",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 80.44297590492144,
+    "status": "PENDING",
+    "approvedBy": "Blanda",
+    "notes": "Demonstro clarus peior validus at atqui cogo capio audio."
+  },
+  {
+    "id": "02422345-731a-4f38-9b39-4121a0b5ca0d",
+    "sampleId": "32aa687d-dffc-474b-912a-295c4fd6c2c2",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 12.506899849531571,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Dapifer demitto quia cunctatio denique modi campana."
+  },
+  {
+    "id": "8007d347-a398-4384-a1e0-4d0a85991aca",
+    "sampleId": "32aa687d-dffc-474b-912a-295c4fd6c2c2",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 95.44246653308551,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Vir doloribus apto quo stultus."
+  },
+  {
+    "id": "486bb31e-8bef-4506-9a6d-97e04a6938cc",
+    "sampleId": "32aa687d-dffc-474b-912a-295c4fd6c2c2",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 47.807602380411204,
+    "status": "REJECTED",
+    "approvedBy": "Champlin",
+    "notes": "Conor maiores architecto."
+  },
+  {
+    "id": "eb481725-b0ba-4eac-8696-cfaeb319d695",
+    "sampleId": "32aa687d-dffc-474b-912a-295c4fd6c2c2",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 46.014054236309455,
+    "status": "APPROVED",
+    "approvedBy": "Koepp",
+    "notes": "Statua cogo maxime trado earum tutamen convoco."
+  },
+  {
+    "id": "2e7952ec-7914-46dd-8026-3c6ae6e39767",
+    "sampleId": "ff18caad-f3e3-4170-a6fb-fd10395ba80e",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 95.52821810376292,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Denuo degenero reiciendis defero bardus."
+  },
+  {
+    "id": "937e940b-f5eb-435a-8841-3397475fc8b4",
+    "sampleId": "ff18caad-f3e3-4170-a6fb-fd10395ba80e",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 65.50134091498714,
+    "status": "APPROVED",
+    "approvedBy": "Pouros",
+    "notes": "Volo perferendis vae attonbitus aqua sopor deduco velut."
+  },
+  {
+    "id": "a9e14be2-bc9c-4600-a778-fe5c261ffa26",
+    "sampleId": "ff18caad-f3e3-4170-a6fb-fd10395ba80e",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 97.16334291665083,
+    "status": "APPROVED",
+    "approvedBy": "Blanda",
+    "notes": "Amo tenax tenetur perspiciatis facere cumque votum tolero."
+  },
+  {
+    "id": "890db5c3-1467-42fe-973d-4e54e92d98a1",
+    "sampleId": "ff18caad-f3e3-4170-a6fb-fd10395ba80e",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 21.71306347714991,
+    "status": "PENDING",
+    "approvedBy": "Champlin",
+    "notes": "Basium desparatus saepe numquam."
+  },
+  {
+    "id": "41137c42-1f88-4825-addc-86c1a673d69c",
+    "sampleId": "3c7317c6-c919-4217-b927-331fa2dfb220",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 28.18227645371718,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Soleo adicio spero."
+  },
+  {
+    "id": "a0684382-7636-47f1-a4b6-f70d21259d71",
+    "sampleId": "3c7317c6-c919-4217-b927-331fa2dfb220",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 6.007268555222234,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Tergo viduo curto."
+  },
+  {
+    "id": "eba6cbe1-7f2e-4fc4-afd2-2b0d4f0357ba",
+    "sampleId": "3c7317c6-c919-4217-b927-331fa2dfb220",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 3.005790271483466,
+    "status": "APPROVED",
+    "approvedBy": "Pouros",
+    "notes": "Allatus admiratio beatus aspernatur odit turpis animi molestias vilicus facilis."
+  },
+  {
+    "id": "522ffb97-412f-4ea4-b6c0-5ef9ff2be0f9",
+    "sampleId": "3c7317c6-c919-4217-b927-331fa2dfb220",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 11.367603724042175,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Consectetur tantum tutamen demo modi."
+  },
+  {
+    "id": "4a3d3c9f-6e8e-4bde-bf49-64d56578ab78",
+    "sampleId": "bba6bedd-36a0-445c-906d-077a79d44578",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 13.11711934872185,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Nobis conforto doloribus ipsam vito tabella desolo."
+  },
+  {
+    "id": "5ecf0534-1e8d-49b8-9fc7-36870105a6e4",
+    "sampleId": "bba6bedd-36a0-445c-906d-077a79d44578",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 3.4926798245332735,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Argentum recusandae uxor audacia delibero quos damno caste victus adiuvo."
+  },
+  {
+    "id": "bc59a271-a18f-4a18-b9a2-44dd843fdd9e",
+    "sampleId": "bba6bedd-36a0-445c-906d-077a79d44578",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 49.79666297616935,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Appositus voluptates vitiosus deputo provident concedo pel adfero."
+  },
+  {
+    "id": "1ef4ae2c-c461-4587-9d1b-fce99a636465",
+    "sampleId": "bba6bedd-36a0-445c-906d-077a79d44578",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 12.388309649766382,
+    "status": "PENDING",
+    "approvedBy": "Pouros",
+    "notes": "Alius repellat clarus aegrotatio crepusculum bestia voco."
+  },
+  {
+    "id": "0b7f455f-ae56-4867-930c-3468aa7ced31",
+    "sampleId": "0a7c13b3-8c42-4029-9c7d-f52f32195e49",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 38.52470276353268,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Tristis utrimque trans."
+  },
+  {
+    "id": "9f0de36f-6bb1-49e3-b0a4-f66758ec0cef",
+    "sampleId": "0a7c13b3-8c42-4029-9c7d-f52f32195e49",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 77.85284738166351,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Tego voveo venio vivo curiositas cribro suppono."
+  },
+  {
+    "id": "1d0fb360-9e67-4c6d-abbe-1b4880651217",
+    "sampleId": "6f091fe7-ccbd-4caa-b766-a6422df87d1d",
+    "methodAnalyteId": "629554f4-d81f-46f1-9493-f255a246c151",
+    "value": 87.59368626993123,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Tantum valetudo talio sublime victus adopto."
+  },
+  {
+    "id": "99ca9f9f-390b-4e3b-9beb-fa01d7abe627",
+    "sampleId": "7b6f32cb-c036-4575-bd95-bb15f79538e5",
+    "methodAnalyteId": "629554f4-d81f-46f1-9493-f255a246c151",
+    "value": 64.5258762596284,
+    "status": "REJECTED",
+    "approvedBy": "Champlin",
+    "notes": "Tergum temptatio capio vulariter."
+  },
+  {
+    "id": "b59947cb-b63d-4f75-88e2-ef16f2692634",
+    "sampleId": "f66307b4-8185-4827-ad84-a7f2aadcab75",
+    "methodAnalyteId": "6c7d00c1-321f-435f-b4bf-1305b82cd285",
+    "value": 81.2878813008786,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Desipio defluo conventus ducimus suppono cognatus impedit bellum desidero."
+  },
+  {
+    "id": "b417f5dc-2fcb-4e2b-b87c-2d357fb47bb0",
+    "sampleId": "f66307b4-8185-4827-ad84-a7f2aadcab75",
+    "methodAnalyteId": "a36999ff-4ec3-4519-8e45-a51eb12852ac",
+    "value": 40.015887083754095,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Spero caste arbustum tripudio terror laboriosam."
+  },
+  {
+    "id": "5496ac1e-f03b-4e65-968f-f22ef472a40d",
+    "sampleId": "f66307b4-8185-4827-ad84-a7f2aadcab75",
+    "methodAnalyteId": "5026f099-2672-4b1c-ae05-fbfa718449f4",
+    "value": 6.441538380414958,
+    "status": "APPROVED",
+    "approvedBy": "Pouros",
+    "notes": "Alveus verbera theatrum contego suscipio crastinus coma hic statim benevolentia."
+  },
+  {
+    "id": "cac22dd9-cbf5-4db2-ac77-fb893dff3c14",
+    "sampleId": "f66307b4-8185-4827-ad84-a7f2aadcab75",
+    "methodAnalyteId": "aece8b42-2079-4615-bfee-3361e9758f37",
+    "value": 83.00916803089619,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Iusto decipio molestiae pel bellum urbanus bardus tam artificiose."
+  },
+  {
+    "id": "998bd6f3-041a-4b3c-889c-fb11183e4c5e",
+    "sampleId": "ce4c3418-a718-49fb-bb8c-374caeed729b",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 5.902811273190567,
+    "status": "PENDING",
+    "approvedBy": "Blick",
+    "notes": "Spectaculum cubitum titulus taedium collum nobis cerno adipisci."
+  },
+  {
+    "id": "aa31c1dd-579f-4a63-8925-4862157168f5",
+    "sampleId": "ce4c3418-a718-49fb-bb8c-374caeed729b",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 61.444853740616225,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Velut adaugeo carmen ager comparo facilis tero demitto teneo."
+  },
+  {
+    "id": "932922b4-69e8-4a4e-b3a7-1ad60504d043",
+    "sampleId": "c9c382ec-b9c4-4853-888d-fa31f4362299",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 78.9731049890775,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Coadunatio cunae titulus triumphus ustulo sulum."
+  },
+  {
+    "id": "0ede4576-c1bd-4836-a2ae-378d13feeb30",
+    "sampleId": "c9c382ec-b9c4-4853-888d-fa31f4362299",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 39.12340988520875,
+    "status": "PENDING",
+    "approvedBy": "Blanda",
+    "notes": "Alii culpo ratione occaecati venustas absum volup."
+  },
+  {
+    "id": "15f976eb-34dd-457e-beeb-25c731d15f30",
+    "sampleId": "c9c382ec-b9c4-4853-888d-fa31f4362299",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 52.72593641801604,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Cubitum blandior terga culpo vobis cruciamentum."
+  },
+  {
+    "id": "19ac036e-9596-4b0d-bf33-b48e1d6480de",
+    "sampleId": "c9c382ec-b9c4-4853-888d-fa31f4362299",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 93.82986938318294,
+    "status": "PENDING",
+    "approvedBy": "Berge",
+    "notes": "Volaticus aveho curiositas complectus thymum suadeo pel versus."
+  },
+  {
+    "id": "254d99a5-b615-4c05-9014-cf6924de45d0",
+    "sampleId": "c9c382ec-b9c4-4853-888d-fa31f4362299",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 3.1168365794755903,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Creber advoco laboriosam stillicidium acervus nihil versus tonsor quasi voluptates."
+  },
+  {
+    "id": "d30b17df-807e-4f2a-b839-5e989ded4f2a",
+    "sampleId": "8b270395-ef24-4226-9320-b559c333efa8",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 37.98663247116375,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Bos ater ubi aureus esse adfectus abduco carcer adulescens."
+  },
+  {
+    "id": "a09fe9a1-2cb9-4484-9ecb-642d6dd0cd25",
+    "sampleId": "8b270395-ef24-4226-9320-b559c333efa8",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 3.9794044236431625,
+    "status": "PENDING",
+    "approvedBy": "Blanda",
+    "notes": "Amo triumphus ulterius voluptatibus bellicus talus."
+  },
+  {
+    "id": "4aa3496e-bc79-44be-99ca-330acbe6cffc",
+    "sampleId": "9988e59b-89d4-4423-9ce5-2fcff4392208",
+    "methodAnalyteId": "5dccc9ec-2d34-4fa4-a931-7d1a249c0087",
+    "value": 89.82949917128174,
     "status": "APPROVED",
     "approvedBy": "Berge",
-    "notes": "Tripudio vallum vomer accusamus accusator."
+    "notes": "Totidem depraedor succedo rerum culpa auxilium."
   },
   {
-    "id": "dc63d80a-debd-40a2-9a9f-78a7da7705f8",
-    "sampleId": "7b581f54-7b9c-4b1f-a609-fea2b63d5c88",
-    "methodId": 6,
-    "value": 74.27838627666846,
-    "status": "REJECTED",
-    "approvedBy": "Mueller",
-    "notes": "Venio clementia deserunt abscido soluta neque quo vulgo claudeo."
-  },
-  {
-    "id": "43f5d86b-1f41-40dc-9097-847e49a61f13",
-    "sampleId": "7b581f54-7b9c-4b1f-a609-fea2b63d5c88",
-    "methodId": 6,
-    "value": 71.73359235122597,
-    "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Angustus cursus sulum amplus voco turbo amplus tenax sustineo."
-  },
-  {
-    "id": "bc89aac5-5aa8-42fd-9f30-8afa56824d48",
-    "sampleId": "7b581f54-7b9c-4b1f-a609-fea2b63d5c88",
-    "methodId": 6,
-    "value": 65.1226653993743,
-    "status": "PENDING",
-    "approvedBy": "Mueller",
-    "notes": "Desino cilicium id volo deporto vesper compono vinculum patria amet."
-  },
-  {
-    "id": "02841100-09c9-4f6c-a366-8a37f5dd02ef",
-    "sampleId": "a08541a1-e66a-4c1a-8c34-d51063d065bd",
-    "methodId": 1,
-    "value": 84.6311301884084,
+    "id": "dcb7f210-9863-420a-af11-9007b0c6bd82",
+    "sampleId": "9988e59b-89d4-4423-9ce5-2fcff4392208",
+    "methodAnalyteId": "56483dd3-c6c6-4c7a-8fcd-e0f85a9487db",
+    "value": 7.453765063760754,
     "status": "APPROVED",
-    "approvedBy": "Breitenberg",
-    "notes": "Totam adulatio commemoro pel patruus defungo quae custodia."
+    "approvedBy": "Pouros",
+    "notes": "Hic clibanus adhuc."
   },
   {
-    "id": "b3e6f399-0ff1-4d72-bc3d-9e73a7dc4372",
-    "sampleId": "a08541a1-e66a-4c1a-8c34-d51063d065bd",
-    "methodId": 1,
-    "value": 42.84796866085336,
+    "id": "8fd1de1e-b6a4-4a91-8cd4-e1a628abaa94",
+    "sampleId": "9988e59b-89d4-4423-9ce5-2fcff4392208",
+    "methodAnalyteId": "7bb37185-23c0-4816-93d7-46bfaf5b7008",
+    "value": 97.45606925129378,
+    "status": "PENDING",
+    "approvedBy": "Pouros",
+    "notes": "Vox coadunatio vae nesciunt ultra complectus colligo beneficium spiritus."
+  },
+  {
+    "id": "605b3265-d826-42dd-abfc-9cf6e3fdc669",
+    "sampleId": "d114a603-bfca-46a5-ab10-7bb83af16d8d",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 50.340993342323515,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Termes voro commodi soluta."
+  },
+  {
+    "id": "2a234b1a-9c5f-497f-8682-3a446cc438c5",
+    "sampleId": "d114a603-bfca-46a5-ab10-7bb83af16d8d",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 76.27057406269226,
     "status": "APPROVED",
-    "approvedBy": "Mueller",
-    "notes": "Caecus deleo commodi baiulus contego aperio."
+    "approvedBy": "Blick",
+    "notes": "Arbitro antea verto arma laudantium totam catena claustrum currus copiose."
   },
   {
-    "id": "2a655be6-2426-42b2-92e0-a9935ca1b851",
-    "sampleId": "a08541a1-e66a-4c1a-8c34-d51063d065bd",
-    "methodId": 1,
-    "value": 97.2334841022519,
+    "id": "7eb98878-2cb7-48a1-9b4b-ac2ba3b9c57d",
+    "sampleId": "c0cb40e9-2bb6-4c08-a153-0f732d228540",
+    "methodAnalyteId": "340e9cd5-46c2-472c-a37a-f62040181111",
+    "value": 26.721625145521376,
+    "status": "APPROVED",
+    "approvedBy": "Blanda",
+    "notes": "Cavus suffoco agnitio maxime defleo ab corporis alter."
+  },
+  {
+    "id": "a4738aea-3db2-4e59-a1ed-6f75f3ada15d",
+    "sampleId": "c0cb40e9-2bb6-4c08-a153-0f732d228540",
+    "methodAnalyteId": "1d428385-6ab4-428a-a2c5-a0ce7fe62ffb",
+    "value": 31.155016314139072,
+    "status": "APPROVED",
+    "approvedBy": "Koepp",
+    "notes": "Patior cohibeo vita tamquam paens unus."
+  },
+  {
+    "id": "12d8b743-093e-48f9-a934-ceffa68d818c",
+    "sampleId": "baf21328-71cd-4677-a324-ad90ff9aeb50",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 97.38595087625649,
     "status": "REJECTED",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Tantillus totam celer."
+    "approvedBy": "Champlin",
+    "notes": "Alii cursim civitas utrimque eligendi audentia vomito amissio valeo."
   },
   {
-    "id": "bdd5c2e8-b253-40ce-9690-5626eb524984",
-    "sampleId": "4279aa34-d880-4bf8-81fb-71c9a8bc6b80",
-    "methodId": 2,
-    "value": 5.207239856390389,
+    "id": "2833ea8d-2d9a-45d9-a945-05a6687fdb8c",
+    "sampleId": "baf21328-71cd-4677-a324-ad90ff9aeb50",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 97.50617170693793,
+    "status": "REJECTED",
+    "approvedBy": "Champlin",
+    "notes": "Tutamen sufficio admoveo pauci."
+  },
+  {
+    "id": "8502155c-c0f4-4d5e-a6ef-406178178b83",
+    "sampleId": "5a2aa103-58d4-4cbb-b0d2-896f26bb54bf",
+    "methodAnalyteId": "5dccc9ec-2d34-4fa4-a931-7d1a249c0087",
+    "value": 56.16219991503816,
+    "status": "PENDING",
+    "approvedBy": "Champlin",
+    "notes": "Corrumpo tardus hic conspergo."
+  },
+  {
+    "id": "b17e595a-a3fb-415d-9d08-afb5eaa60e07",
+    "sampleId": "5a2aa103-58d4-4cbb-b0d2-896f26bb54bf",
+    "methodAnalyteId": "56483dd3-c6c6-4c7a-8fcd-e0f85a9487db",
+    "value": 39.85574242761539,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Terga accusator acervus conicio depraedor alo cilicium strues."
+  },
+  {
+    "id": "aca7e4f2-a87e-4900-a265-6be4305aa022",
+    "sampleId": "5a2aa103-58d4-4cbb-b0d2-896f26bb54bf",
+    "methodAnalyteId": "7bb37185-23c0-4816-93d7-46bfaf5b7008",
+    "value": 68.01266840258366,
+    "status": "APPROVED",
+    "approvedBy": "Berge",
+    "notes": "Aggero pectus viridis talus voro."
+  },
+  {
+    "id": "7cfa32eb-b862-45b3-881c-e507be9ae942",
+    "sampleId": "c6e6235b-e1ef-4024-8c14-e9ad161f11d2",
+    "methodAnalyteId": "72ae48ac-c545-4812-a7a4-ec322b60ff00",
+    "value": 41.411795485233505,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Ustilo velociter curo constans admiratio deorsum ago circumvenio."
+  },
+  {
+    "id": "5304af02-cb9f-44e2-88c6-09453aeaaef9",
+    "sampleId": "c6e6235b-e1ef-4024-8c14-e9ad161f11d2",
+    "methodAnalyteId": "c0295ff1-d24c-4e01-bc40-2307af095d16",
+    "value": 13.331245903680545,
+    "status": "APPROVED",
+    "approvedBy": "Koepp",
+    "notes": "Numquam admoneo currus uxor atque vulgaris admoneo dapifer candidus."
+  },
+  {
+    "id": "284bc2c9-4105-48ea-ba61-c191fd64f07f",
+    "sampleId": "cf235d9d-70dd-43cd-970a-386a79b47674",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 50.04704512057467,
+    "status": "REJECTED",
+    "approvedBy": "Koepp",
+    "notes": "Veniam itaque curo."
+  },
+  {
+    "id": "ca254b43-abaa-4685-a27b-f2fa4e9712a4",
+    "sampleId": "cf235d9d-70dd-43cd-970a-386a79b47674",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 44.52571097156765,
+    "status": "APPROVED",
+    "approvedBy": "Blick",
+    "notes": "Earum tolero comis vel amissio amoveo timor adopto admoveo."
+  },
+  {
+    "id": "1273cc42-f262-4561-bfc1-14d69e4c141e",
+    "sampleId": "cf235d9d-70dd-43cd-970a-386a79b47674",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 58.44385804136296,
+    "status": "APPROVED",
+    "approvedBy": "Pouros",
+    "notes": "Clementia coruscus sunt."
+  },
+  {
+    "id": "2dbe9037-644c-4678-a792-da52d5b21e48",
+    "sampleId": "cf235d9d-70dd-43cd-970a-386a79b47674",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 78.2241996417177,
+    "status": "REJECTED",
+    "approvedBy": "Berge",
+    "notes": "Videlicet aegrotatio auctor terror alioqui."
+  },
+  {
+    "id": "a93af935-7733-486e-975f-39baa047230a",
+    "sampleId": "cf235d9d-70dd-43cd-970a-386a79b47674",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 82.8817698383289,
+    "status": "PENDING",
+    "approvedBy": "Koepp",
+    "notes": "Stipes cursus cupiditate."
+  },
+  {
+    "id": "6baae768-344a-4dfd-9d64-9407ea201a0e",
+    "sampleId": "8e612f68-4f9a-438e-a7f8-84a76703dd16",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 64.57672310815441,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Averto coaegresco defluo vox fugit dapifer."
+  },
+  {
+    "id": "cc112e90-d7ab-4552-9f8a-ade1f59d00db",
+    "sampleId": "8e612f68-4f9a-438e-a7f8-84a76703dd16",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 34.937652062639856,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Volo vacuus venustas damno vel somniculosus."
+  },
+  {
+    "id": "4578a3e8-10b5-4964-b0e0-e492dddcf5ba",
+    "sampleId": "7c96ae27-0b12-4d7e-a643-77226fcd3f6e",
+    "methodAnalyteId": "629554f4-d81f-46f1-9493-f255a246c151",
+    "value": 40.041768284548,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Nostrum vestigium quis tempus victus venio tersus speciosus."
+  },
+  {
+    "id": "c13577ae-11c7-4d0e-841c-06db480fc40b",
+    "sampleId": "29d66cee-80bc-4870-9b6a-ab5c660dcbd3",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 92.58475040816641,
     "status": "PENDING",
     "approvedBy": "Berge",
-    "notes": "Casso quas asporto rerum spes adstringo adeo torqueo."
+    "notes": "Sordeo deporto clarus."
   },
   {
-    "id": "be07d493-17e2-4e5a-96c1-72a950ebd779",
-    "sampleId": "4279aa34-d880-4bf8-81fb-71c9a8bc6b80",
-    "methodId": 2,
-    "value": 63.616719856140534,
-    "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Quas sublime coadunatio adeo maiores denuo."
-  },
-  {
-    "id": "4dddb544-f11b-47a0-950a-101ab7df6be8",
-    "sampleId": "4279aa34-d880-4bf8-81fb-71c9a8bc6b80",
-    "methodId": 2,
-    "value": 80.56538977113053,
+    "id": "1eb10240-8b12-4223-9308-83c2194b5323",
+    "sampleId": "29d66cee-80bc-4870-9b6a-ab5c660dcbd3",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 27.94557061440631,
     "status": "REJECTED",
-    "approvedBy": "Pacocha",
-    "notes": "Tardus illo asperiores aer."
+    "approvedBy": "Koepp",
+    "notes": "Caritas adaugeo thorax trans auctus."
   },
   {
-    "id": "316e33ca-7d47-4309-bb71-3c05cf45a275",
-    "sampleId": "8bf01c38-6ec4-4f4b-bd7c-baf266b3f8d1",
-    "methodId": 2,
-    "value": 55.289502764004354,
+    "id": "1eb8bc11-caf7-472c-aaaa-60c301d452ac",
+    "sampleId": "26097f16-a30b-426a-aeb7-6a94ff4d81cb",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 54.61148215874889,
     "status": "PENDING",
-    "approvedBy": "Hodkiewicz",
-    "notes": "Volutabrum tabesco curiositas tendo tripudio."
+    "approvedBy": "Champlin",
+    "notes": "Aedificium atqui perferendis dolorem amita spectaculum."
   },
   {
-    "id": "8968369b-f145-45b0-9b7e-4fbb5387a17b",
-    "sampleId": "8bf01c38-6ec4-4f4b-bd7c-baf266b3f8d1",
-    "methodId": 2,
-    "value": 95.65857213510111,
+    "id": "c936b985-810e-41e4-bbb3-799f229ae844",
+    "sampleId": "26097f16-a30b-426a-aeb7-6a94ff4d81cb",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 92.66653153802015,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Repellendus aperiam somniculosus demonstro."
+  },
+  {
+    "id": "8ab701b8-f8f9-4de8-83d4-d6f6a5f5c4b9",
+    "sampleId": "8748b0d3-d7fa-4fb7-ad10-e5966a375910",
+    "methodAnalyteId": "72ae48ac-c545-4812-a7a4-ec322b60ff00",
+    "value": 14.234064947522452,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Texo ulciscor vorago aperiam super solutio ventito apto."
+  },
+  {
+    "id": "40a31212-4acf-4aed-9232-3225cf1582aa",
+    "sampleId": "8748b0d3-d7fa-4fb7-ad10-e5966a375910",
+    "methodAnalyteId": "c0295ff1-d24c-4e01-bc40-2307af095d16",
+    "value": 61.540335492030664,
+    "status": "PENDING",
+    "approvedBy": "Blick",
+    "notes": "Candidus consuasor bonus labore unde molestiae."
+  },
+  {
+    "id": "06175a8a-68f4-49b0-a5e4-44193da6b863",
+    "sampleId": "87bbde89-282f-4cd0-9ab3-c63a5a04454a",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 45.52616477511572,
+    "status": "APPROVED",
+    "approvedBy": "Champlin",
+    "notes": "Adinventitias cernuus acer caput toties subseco audacia vinculum."
+  },
+  {
+    "id": "b0e691af-a59c-4bbd-9c84-07d780304885",
+    "sampleId": "87bbde89-282f-4cd0-9ab3-c63a5a04454a",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 72.90276653991063,
+    "status": "PENDING",
+    "approvedBy": "Champlin",
+    "notes": "At animadverto alioqui rem sint absconditus modi uterque agnitio correptius."
+  },
+  {
+    "id": "1421ef23-58b1-439e-9970-053bc7b3098a",
+    "sampleId": "87bbde89-282f-4cd0-9ab3-c63a5a04454a",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 85.13453605589568,
     "status": "REJECTED",
     "approvedBy": "Berge",
-    "notes": "Dolore clementia subito turpis torrens."
+    "notes": "Tres ambulo amicitia eum civitas celebrer."
   },
   {
-    "id": "e2cf1cbd-6d52-4309-9761-c8d6a909cdcd",
-    "sampleId": "6141379a-f1c8-40a7-ad3a-8a8a5f67ca80",
-    "methodId": 8,
-    "value": 70.69425352008395,
+    "id": "e254812b-dd8d-4f4a-8a42-15bc78042f71",
+    "sampleId": "87bbde89-282f-4cd0-9ab3-c63a5a04454a",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 99.30206768735052,
     "status": "PENDING",
-    "approvedBy": "Pacocha",
-    "notes": "Libero eum alius patrocinor earum."
+    "approvedBy": "Pouros",
+    "notes": "Caste defessus pecus aduro ver beatae."
   },
   {
-    "id": "18008b09-40bb-412e-88db-3daa01d88a64",
-    "sampleId": "6141379a-f1c8-40a7-ad3a-8a8a5f67ca80",
-    "methodId": 8,
-    "value": 79.98424579256624,
+    "id": "8f7ab184-23a6-4ce7-91ae-c55f74ecc869",
+    "sampleId": "87bbde89-282f-4cd0-9ab3-c63a5a04454a",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 15.48117394462114,
+    "status": "PENDING",
+    "approvedBy": "Blick",
+    "notes": "Tollo aveho stella adversus barba turbo viscus somnus."
+  },
+  {
+    "id": "04668016-e0f1-4cbe-9d77-2923ad5d5222",
+    "sampleId": "2516476f-367a-45f7-8b85-d48a5e1a32e3",
+    "methodAnalyteId": "a09a965d-ee87-4e92-960d-98949beb0a75",
+    "value": 67.79546338964515,
+    "status": "PENDING",
+    "approvedBy": "Blanda",
+    "notes": "Victoria conicio adipiscor uberrime veritatis sequi cervus tot."
+  },
+  {
+    "id": "91fc741b-24fe-470d-8c95-a38571ce0787",
+    "sampleId": "2516476f-367a-45f7-8b85-d48a5e1a32e3",
+    "methodAnalyteId": "ecb928b2-dda2-4e94-acee-f67aece1b564",
+    "value": 16.138872715420007,
+    "status": "REJECTED",
+    "approvedBy": "Pouros",
+    "notes": "Cruciamentum creptio caelestis dolore argumentum."
+  },
+  {
+    "id": "484c8421-11e5-435b-8094-efbeccdc3cae",
+    "sampleId": "7d80d763-4cea-4019-bf90-e318991b69ee",
+    "methodAnalyteId": "45e0e896-f1df-4e51-8f10-a71a1867994e",
+    "value": 79.45918302897682,
+    "status": "REJECTED",
+    "approvedBy": "Blanda",
+    "notes": "Baiulus tenus soleo eaque conscendo certe defungo nam tertius."
+  },
+  {
+    "id": "a48ee3fc-7090-4b9d-b907-85f22062d70a",
+    "sampleId": "7d80d763-4cea-4019-bf90-e318991b69ee",
+    "methodAnalyteId": "b4a7cb61-f40a-4706-a379-e8de9ee37443",
+    "value": 8.277500642924263,
     "status": "PENDING",
     "approvedBy": "Berge",
-    "notes": "Bonus peccatus occaecati tamen talis."
+    "notes": "Sol comprehendo ustilo demonstro."
   },
   {
-    "id": "3a164f84-6840-4a0d-bd86-ad63eb01a942",
-    "sampleId": "6141379a-f1c8-40a7-ad3a-8a8a5f67ca80",
-    "methodId": 8,
-    "value": 68.34592291129576,
+    "id": "55573e8d-67be-4949-902d-3131a25bf087",
+    "sampleId": "7d80d763-4cea-4019-bf90-e318991b69ee",
+    "methodAnalyteId": "644864f6-9445-48cc-bc57-90b92211ac4f",
+    "value": 29.302411447477994,
     "status": "PENDING",
-    "approvedBy": "Breitenberg",
-    "notes": "Somnus aeternus totus caecus dens acsi tamen thymbra depromo."
+    "approvedBy": "Koepp",
+    "notes": "Officia depraedor vulnero tribuo."
+  },
+  {
+    "id": "8a511161-c055-49d5-b6c5-6c3302212982",
+    "sampleId": "7d80d763-4cea-4019-bf90-e318991b69ee",
+    "methodAnalyteId": "7b2316b1-37ad-49d2-90a8-f8685b127592",
+    "value": 47.58935134324527,
+    "status": "REJECTED",
+    "approvedBy": "Blick",
+    "notes": "Considero dolores quidem stips vitium dens sono."
+  },
+  {
+    "id": "ea2e95ef-f9c3-4dad-9cc4-5ea730f3a516",
+    "sampleId": "7d80d763-4cea-4019-bf90-e318991b69ee",
+    "methodAnalyteId": "6b0573b8-c0aa-4c01-a111-9d5373d9dd9c",
+    "value": 53.41275201996568,
+    "status": "PENDING",
+    "approvedBy": "Blanda",
+    "notes": "Tenus basium templum depromo balbus quam accommodo decretum adversus."
   }
 ]

@@ -6,11 +6,32 @@ module.exports = (sequelize, DataTypes) => {
     "Result",
     {
       id: { type: DataTypes.UUID, defaultValue: DataTypes.UUIDV4, primaryKey: true },
-      sampleId: { type: DataTypes.UUID, allowNull: false },
-      methodAnalyteId: { type: DataTypes.UUID, allowNull: false },
+
+      sampleId: {
+        type: DataTypes.UUID,
+        allowNull: false,
+        references: {
+          model: "Samples",
+          key: "id",
+        },
+      },
+
+      methodAnalyteId: {
+        type: DataTypes.UUID,
+        allowNull: false,
+        references: {
+          model: "MethodAnalytes",
+          key: "id",
+        },
+      },
 
       value: DataTypes.FLOAT,
-      status: DataTypes.ENUM("PENDING", "APPROVED", "REJECTED"),
+
+      status: {
+        type: DataTypes.ENUM("PENDING", "APPROVED", "REJECTED"),
+        defaultValue: "PENDING",
+      },
+
       approvedBy: DataTypes.STRING,
       notes: DataTypes.TEXT,
     },
@@ -20,8 +41,17 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   Result.associate = (models) => {
-    Result.belongsTo(models.Sample, { foreignKey: "sampleId" });
-    Result.belongsTo(models.MethodAnalyte, { foreignKey: "methodAnalyteId" });
+    Result.belongsTo(models.Sample, {
+      foreignKey: "sampleId",
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+    });
+
+    Result.belongsTo(models.MethodAnalyte, {
+      foreignKey: "methodAnalyteId",
+      onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+    });
   };
   return Result;
 };
