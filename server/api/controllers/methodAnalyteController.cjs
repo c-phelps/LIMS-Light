@@ -16,11 +16,11 @@ async function getMethodAnalytes(req, res, next) {
 }
 
 // add analyte to a method
+// POST
 async function addAnalyteToMethod(req, res, next) {
   try {
     const { methodId } = req.params;
     const { analyteId, unit, detectionLimit, quantitationLimit, reportingOrder } = req.body;
-
     // validate method exists
     const method = await Method.findByPk(methodId);
     if (!method) {

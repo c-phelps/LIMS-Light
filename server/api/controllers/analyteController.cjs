@@ -12,7 +12,8 @@ async function createAnalyte(req, res, next) {
 // get all
 async function getAnalytes(req, res, next) {
   try {
-    const analyte = await Analyte.findAll({ order: [["analyteName", "ASC"]] });    res.json(analyte);
+    const analyte = await Analyte.findAll({ order: [["analyteName", "ASC"]] });
+    res.json(analyte);
   } catch (err) {
     console.log(err);
     next(err);

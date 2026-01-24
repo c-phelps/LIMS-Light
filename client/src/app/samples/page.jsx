@@ -1,5 +1,5 @@
 // app/samples/page.jsx
-import { getSamples } from "@/src/lib/api/methods";
+import { getSamples } from "@/src/lib/api/samples";
 import Link from "next/link";
 
 /**

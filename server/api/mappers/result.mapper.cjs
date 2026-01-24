@@ -11,6 +11,7 @@ function resultDetails(result) {
     notes: result.notes,
     createdAt: result.createdAt,
     updatedAt: result.updatedAt,
+    methodAnalyteId: methodAnalyte.id,
     unit: methodAnalyte.unit,
     detectionLimit: methodAnalyte.detectionLimit,
     quantitationLimit: methodAnalyte.quantitationLimit,
