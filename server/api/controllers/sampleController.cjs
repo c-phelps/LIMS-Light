@@ -1,7 +1,7 @@
 //crud logic for samples
-const { Sample, Result } = require("../../db/index.cjs");
+const { Sample, Result, Matrix } = require("../../db/index.cjs");
 // serializer/mapper
-
+const { sampleDetails, sampleList } = require("../mappers/sample.mapper.cjs");
 
 // create sample
 async function createSample(req, res, next) {
@@ -18,9 +18,10 @@ async function getAllSamples(req, res, next) {
   try {
     const samples = await Sample.findAll({
       order: [["createdAt", "DESC"]],
-      limit: 200, include: [Result]
+      limit: 200,
+      include: [Matrix],
     });
-    res.json(samples);
+    res.json(samples.map(sampleList));
   } catch (err) {
     next(err);
   }
@@ -29,9 +30,9 @@ async function getAllSamples(req, res, next) {
 //retrieve specific sample
 async function getSampleById(req, res, next) {
   try {
-    const sample = await Sample.findByPk(req.params.id, { include: [Result] });
+    const sample = await Sample.findByPk(req.params.id, { include: [Result, Matrix] });
     if (!sample) return res.status(404).json({ error: "Sample not found" });
-    res.json(sample);
+    res.json(sampleDetails(sample));
   } catch (err) {
     next(err);
   }

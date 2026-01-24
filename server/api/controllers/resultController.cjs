@@ -1,5 +1,6 @@
 //crud logic for results
-const { Result, Method, Analyte, Sample, MethodAnalyte } = require("../../db/index.cjs");
+const { Result, Method, Analyte, Sample, MethodAnalyte, Matrix } = require("../../db/index.cjs");
+const { resultDetails } = require("../mappers/result.mapper.cjs");
 
 // create result
 async function createResult(req, res, next) {
@@ -27,7 +28,7 @@ async function createResult(req, res, next) {
 }
 
 // retrieve with filters (add more later?)
-async function getResultsBySample(req, res, next) {
+async function getResultsByFilter(req, res, next) {
   try {
     const { sampleId, methodId, analyteId, status } = req.query;
 
@@ -42,47 +43,52 @@ async function getResultsBySample(req, res, next) {
       include: [
         {
           model: MethodAnalyte,
-          include: [{ model: Method }, { model: Analyte }],
+          include: [{ model: Method, include: [Matrix] }, Analyte],
         },
       ],
       order: [["createdAt", "ASC"]],
     });
 
-    res.json(results);
+    // pass data to mapper to reformat to resultDetails -- mappers/results.mapper.cjs
+    res.json(resultDetails(results));
   } catch (err) {
     next(err);
   }
 }
 
+// retrieve results for specific id
 async function getResultsById(req, res, next) {
   try {
-    const results = await Result.findAll({
-      where: { id: req.params.id },
+    const results = await Result.findByPk(req.params.id, {
       include: [
         {
           model: MethodAnalyte,
-          include: [{ model: Method }, { model: Analyte }],
+          include: [{ model: Method, include: [Matrix] }, Analyte],
         },
       ],
     });
-    res.json(results);
+    // pass data to mapper to reformat to resultDetails -- mappers/results.mapper.cjs
+    res.json(resultDetails(results));
   } catch (err) {
     next(err);
   }
 }
 
-// retrieve specific results for sample
+// retrieve results for specific sample
 async function getResultsBySample(req, res, next) {
   try {
-    const results = await Result.findAll({ where: { sampleId: req.params.sampleId },
+    const results = await Result.findAll({
+      where: { sampleId: req.params.sampleId },
       include: [
         {
           model: MethodAnalyte,
-          include: [{ model: Method }, { model: Analyte }],
+          include: [{ model: Method, include: [Matrix] }, Analyte],
         },
-      ], });
+      ],
+    });
     if (results.length === 0) return res.status(404).json({ error: "No results for this sample" });
-    res.json(results);
+    // map the results to reformat to resultDetails -- mappers/results.mapper.cjs
+    res.json(results.map(resultDetails));
   } catch (err) {
     next(err);
   }
@@ -118,4 +124,5 @@ module.exports = {
   getResultsById,
   updateResult,
   deleteResult,
+  getResultsByFilter,
 };

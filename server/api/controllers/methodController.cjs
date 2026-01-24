@@ -1,4 +1,5 @@
-const { Method, MethodAnalyte, Analyte } = require("../../db/index.cjs");
+const { Method, MethodAnalyte, Analyte, Matrix } = require("../../db/index.cjs");
+const { methodDetails, methodList } = require("../mappers/method.mapper.cjs");
 
 // create method
 async function createMethod(req, res, next) {
@@ -17,7 +18,8 @@ async function getMethods(req, res, next) {
       order: [["methodName", "ASC"]],
       include: [Matrix, { model: MethodAnalyte, include: [Analyte], order: [["reportingOrder", "ASC"]] }],
     });
-    res.json(method);
+    // map the method data using methodList - see mapper/method.mapper.cjs for format
+    res.json(method.map(methodList));
   } catch (err) {
     console.log(err);
     next(err);
@@ -30,7 +32,8 @@ async function getMethodById(req, res, next) {
       include: [Matrix, { model: MethodAnalyte, include: [Analyte] }],
     });
     if (!method) return res.status(404).json({ error: "Method not found" });
-    res.json(method);
+    // pass the data to mapper using methodDetails - see mapper/method.mapper.cjs for format
+    res.json(methodDetails(method));
   } catch (err) {
     next(err);
   }
@@ -43,7 +46,8 @@ async function getMethodAnalytes(req, res, next) {
       include: [Matrix, { model: MethodAnalyte, include: [Analyte] }],
     });
     if (!method) return res.status(404).json({ error: "Method not found" });
-    res.json(method);
+    // pass the data to mapper using methodDetails - see mapper/method.mapper.cjs for format
+    res.json(methodDetails(method));
   } catch (err) {
     next(err);
   }
