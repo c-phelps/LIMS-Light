@@ -1,10 +1,9 @@
 const { MethodAnalyte, Analyte, Method } = require("../../db/index.cjs");
 
-// define which analyes belong to a method
+// define which analytes belong to a method
 async function getMethodAnalytes(req, res, next) {
   try {
     const { methodId } = req.query;
-
     const rows = await MethodAnalyte.findAll({
       where: { methodId },
       include: [Analyte],
@@ -65,7 +64,13 @@ async function updateMethodAnalyte(req, res, next) {
     if (!row) {
       return res.status(404).json({ error: "MethodAnalyte not found!" });
     }
-    await row.update({ user: req.user?.username || "system" });
+    await row.update({
+      unit,
+      detectionLimit,
+      quantitationLimit,
+      reportingOrder,
+      user: req.user?.username || "system",
+    });
   } catch (err) {
     next(err);
   }
@@ -79,7 +84,6 @@ async function removeAnalyteFromMethod(req, res, next) {
     if (!row) {
       return res.status(404).json({ error: "MethodAnalyte not found" });
     }
-
     await row.destroy({ user: req.user?.username || "system" });
     res.status(204).end();
   } catch (err) {

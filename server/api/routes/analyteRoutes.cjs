@@ -9,3 +9,4 @@ router.put("/:id", analyteController.updateAnalyte);
 router.delete("/:id", analyteController.deleteAnalyte);
 
 module.exports = router;
+

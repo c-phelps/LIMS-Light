@@ -21,6 +21,8 @@ async function getAllSamples(req, res, next) {
       limit: 200,
       include: [Matrix],
     });
+
+    // pass data to mapper to reformat to samplesDetails -- mappers/samples.mapper.cjs
     res.json(samples.map(sampleList));
   } catch (err) {
     next(err);
@@ -32,6 +34,8 @@ async function getSampleById(req, res, next) {
   try {
     const sample = await Sample.findByPk(req.params.id, { include: [Result, Matrix] });
     if (!sample) return res.status(404).json({ error: "Sample not found" });
+    
+    // map the sample to reformat to sampleDetails -- mappers/sample.mapper.cjs
     res.json(sampleDetails(sample));
   } catch (err) {
     next(err);

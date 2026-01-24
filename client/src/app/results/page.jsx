@@ -1,7 +1,7 @@
 "use client";
 // app/results/page.jsx
-import {useState, useEffect} from "react";
-import { getResultsBySample, getSamples } from "@/lib/api";
+import { useState, useEffect } from "react";
+import { getResultsBySample, getSamples } from "@/src/lib/api/methods";
 
 // we are keeping this deliberately simple for mvp development
 export default function ResultsPage() {
@@ -42,7 +42,7 @@ export default function ResultsPage() {
   const handleChange = (event) => {
     const { value } = event.target;
     setSampleId(value);
-  }
+  };
 
   return (
     <div className="p-6">

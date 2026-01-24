@@ -11,7 +11,6 @@ async function createResult(req, res, next) {
     if (!sample) {
       return res.status(404).json({ error: "Sample not found for Result" });
     }
-
     // enforce method - analyte contract
     const methodAnalyte = await MethodAnalyte.findByPk(methodAnalyteId);
     if (!methodAnalyte) {
@@ -27,7 +26,7 @@ async function createResult(req, res, next) {
   }
 }
 
-// retrieve with filters (add more later?)
+// retrieve with filters (skeleton for now)
 async function getResultsByFilter(req, res, next) {
   try {
     const { sampleId, methodId, analyteId, status } = req.query;

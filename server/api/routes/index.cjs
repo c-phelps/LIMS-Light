@@ -13,7 +13,7 @@ router.use("/samples", sampleRoutes);
 router.use("/results", resultRoutes);
 router.use("/methods", methodRoutes);
 router.use("/analytes", analyteRoute);
-router.use("/matrix", matrixRoutes);
+router.use("/matrices", matrixRoutes);
 router.use("/method-analytes", methodAnalyteRoutes);
 
 module.exports = router;

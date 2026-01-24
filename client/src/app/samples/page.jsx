@@ -1,5 +1,5 @@
 // app/samples/page.jsx
-import { getSamples } from '@/lib/api';
+import { getSamples } from "@/src/lib/api/methods";
 import Link from "next/link";
 
 /**
@@ -22,9 +22,7 @@ export default async function SamplesPage() {
         <ul>
           {samples.map((sample) => (
             <li key={sample.id}>
-              <Link href={`/samples/${sample.id}`}>
-                {sample.name || sample.id}
-              </Link>
+              <Link href={`/samples/${sample.id}`}>{sample.name || sample.id}</Link>
             </li>
           ))}
         </ul>

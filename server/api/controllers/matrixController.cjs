@@ -1,11 +1,10 @@
-const { Matrix, Method } = require("../../db/index.cjs");
+const { Matrix } = require("../../db/index.cjs");
 
 // create
 async function createMatrix(req, res, next) {
   try {
     const matrix = await Matrix.create(req.body);
-    res.status(201).json(matrix, { user: req.user?.username || "system" });
-  } catch (err) {
+    res.status(201).json(matrix, { user: req.user?.username || "system" });  } catch (err) {
     next(err);
   }
 }
@@ -13,8 +12,7 @@ async function createMatrix(req, res, next) {
 // get all
 async function getMatrix(req, res, next) {
   try {
-    const matrix = await Matrix.findAll({ order: [["matrixName", "ASC"]] });
-    res.json(matrix);
+    const matrix = await Matrix.findAll({ order: [["matrixName", "ASC"]] });    res.json(matrix);
   } catch (err) {
     next(err);
   }
@@ -23,9 +21,8 @@ async function getMatrix(req, res, next) {
 // get by id
 async function getMatrixById(req, res, next) {
   try {
-    const matrix = await Matrix.findByPk(res.params.id, { include: [Method] });
+    const matrix = await Matrix.findByPk(req.params.id);
     if (!matrix) return res.status(404).json({ error: "Matrix not found..." });
-
     res.json(matrix);
   } catch (err) {
     next(err);
@@ -37,7 +34,6 @@ async function updateMatrix(req, res, next) {
   try {
     const matrix = await Matrix.findByPk(req.params.id);
     if (!matrix) return res.status(404).json({ error: "Matrix not found..." });
-
     await matrix.update(req.body, { user: req.user?.username || "system" });
     res.json(matrix);
   } catch (err) {
