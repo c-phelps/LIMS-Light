@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-export default function SampleDetailPage({ params }) {
-  const { id } = params;
+export default async function SampleDetailPage({ params }) {
+  const { id } = await params;
   return (
     <div>
       <h1>Sample Details</h1>

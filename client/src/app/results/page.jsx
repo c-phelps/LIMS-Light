@@ -1,12 +1,13 @@
 "use client";
 // app/results/page.jsx
 import { useState, useEffect } from "react";
-import { getResultsBySample, getSamples } from "@/src/lib/api/methods";
+import { getResultsBySample } from "@/src/lib/api/results";
+import { getSamples } from "@/src/lib/api/samples";
 
 // we are keeping this deliberately simple for mvp development
 export default function ResultsPage() {
   const [results, setResults] = useState([]);
-  const [sampleId, setSampleId] = useState([]);
+  const [sampleId, setSampleId] = useState("");
   const [sampleData, setSampleData] = useState([]);
 
   // on page load
@@ -40,7 +41,7 @@ export default function ResultsPage() {
 
   // on change handler
   const handleChange = (event) => {
-    const { value } = event.target;
+    const {value} = event.target;
     setSampleId(value);
   };
 
@@ -53,7 +54,7 @@ export default function ResultsPage() {
         </option>
         {sampleData.map((sample, index) => (
           <option key={index} value={sample.id}>
-            {sample.id}
+            {sample.id}  -  {sample.sampleName}
           </option>
         ))}
       </select>

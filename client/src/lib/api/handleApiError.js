@@ -1,5 +1,5 @@
 // consistent error handler for api layer
-async function handleError(response, fnName) {
+async function handleApiError(response, fnName) {
   if (response.ok) return true;
   let message = "Unknown error";
 
@@ -9,6 +9,4 @@ async function handleError(response, fnName) {
   } catch (e) {}
   throw new Error(`${fnName} failed: ${message}`);
 }
-module.exports = {
-  handleError,
-};
+module.exports = { handleApiError };
