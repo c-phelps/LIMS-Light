@@ -5,7 +5,7 @@ export default function Nav() {
         <nav className="p-4 border-b flex gap-4">
           <Link href="/">Home</Link>
           <Link href="/samples">Samples</Link>
-          <Link href="/results">Results</Link>
+          <Link href="/results">Results Search (WIP)</Link>
         </nav>
     )
 }
