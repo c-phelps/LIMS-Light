@@ -1,6 +1,8 @@
-const { MethodAnalyte, Analyte, Method } = require("../../db/index.cjs");
+const { MethodAnalyte, Analyte, Method, Sample, Result } = require("../../db/index.cjs");
+const { mapAvailableMethodAnalyte } = require("../mappers/methodAnalyte.mapper.cjs");
+const { Op } = require('sequelize'); 
 
-// define which analytes belong to a method
+// determine which analytes belong to a method
 async function getMethodAnalytes(req, res, next) {
   try {
     const { methodId } = req.query;
@@ -10,6 +12,40 @@ async function getMethodAnalytes(req, res, next) {
       order: [["reportingOrder", "ASC"]],
     });
     res.json(rows);
+  } catch (err) {
+    next(err);
+  }
+}
+
+// filter and find all unused and available method/analytes for sample
+async function getMethodAnalytesBySample(req, res, next) {
+  try {
+    const { sampleId } = req.params;
+
+    const sample = await Sample.findByPk(sampleId);
+    if (!sample) return res.status(404).json({ error: "Sample not found." });
+
+    // retrieve methodAnalyteIds stored in the result table for the sample
+    // filter the data to include specifically just the methodAnalyteIds as an array
+    const usedMethodAnalyteIds = await Result.findAll({
+      where: { sampleId },
+      attributes: ["methodAnalyteId"],
+    }).then((rows) => rows.map((r) => r.methodAnalyteId));
+
+    // use array of currently used methodAnalyteIds as exclusion in where clause
+    // join Method on matrixId from sample
+    const methodAnalytes = await MethodAnalyte.findAll({
+      include: [
+        {
+          model: Method,
+          where: { matrixId: sample.matrixId },
+        },
+        { model: Analyte },
+      ],
+      where: usedMethodAnalyteIds.length ? { id: { [Op.notIn]: usedMethodAnalyteIds } } : undefined,
+    });
+    // return the data after passing it to the mapper
+    res.json(methodAnalytes.map(mapAvailableMethodAnalyte));
   } catch (err) {
     next(err);
   }
@@ -96,4 +132,5 @@ module.exports = {
   addAnalyteToMethod,
   updateMethodAnalyte,
   removeAnalyteFromMethod,
+  getMethodAnalytesBySample,
 };
