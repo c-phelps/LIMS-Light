@@ -7,13 +7,14 @@ const resultRoutes = require("./resultRoutes.cjs");
 const methodRoutes = require("./methodRoutes.cjs");
 const analyteRoute = require("./analyteRoutes.cjs");
 const matrixRoutes = require("./matrixRoutes.cjs");
-const methodAnalyteRoutes = require("./methodAnalyteRoutes.cjs");
+const userRoutes = require("./userRoutes.cjs");
 
 router.use("/samples", sampleRoutes);
 router.use("/results", resultRoutes);
 router.use("/methods", methodRoutes);
 router.use("/analytes", analyteRoute);
 router.use("/matrices", matrixRoutes);
-router.use("/method-analytes", methodAnalyteRoutes);
+router.use("/method-analytes", userRoutes);
+router.use("/users", userRoutes);
 
 module.exports = router;

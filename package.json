@@ -11,6 +11,7 @@
     "build": "npm run build --prefix client",
     "start": "npm run start --prefix server",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "//": "SEEDING INFO ========  run seedData 0 4 → run dataGen → run seedData 4 7",
     "dataGen": "node server/db/seed/scripts/generateSamplesAndResults.cjs",
     "seedData": "node server/db/seed/scripts/runSeeds.cjs"
   },

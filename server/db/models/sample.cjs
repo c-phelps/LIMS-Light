@@ -27,7 +27,8 @@ module.exports = (sequelize, DataTypes) => {
       },
 
       sampleType: DataTypes.STRING,
-      collectedBy: DataTypes.STRING,
+      createdById: DataTypes.UUID,
+      collectedById: DataTypes.UUID,
       createdAt: DataTypes.DATE,
       receivedDate: DataTypes.DATE,
       notes: DataTypes.TEXT,
@@ -41,6 +42,20 @@ module.exports = (sequelize, DataTypes) => {
     Sample.belongsTo(models.Matrix, {
       foreignKey: "matrixId",
       onDelete: "CASCADE",
+      onUpdate: "CASCADE",
+    });
+
+    Sample.belongsTo(models.User, {
+      foreignKey: "createdById",
+      as: "createdBy",
+      onDelete: "SET NULL",
+      onUpdate: "CASCADE",
+    });
+
+    Sample.belongsTo(models.User, {
+      foreignKey: "collectedById",
+      as: "collectedBy",
+      onDelete: "SET NULL",
       onUpdate: "CASCADE",
     });
 

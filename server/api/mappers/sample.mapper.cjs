@@ -6,6 +6,8 @@ function sampleDetails(sample) {
     matrixCode: sample.Matrix.matrixCode,
     sampleType: sample.sampleType,
     createdAt: sample.createdAt,
+    createdBy: sample.createdBy.userName,
+    collectedBy: sample.collectedBy.userName,
     receivedDate: sample.receivedDate,
     notes: sample.notes,
     updatedAt: sample.updatedAt,

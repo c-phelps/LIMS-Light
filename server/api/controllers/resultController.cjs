@@ -1,5 +1,5 @@
 //crud logic for results
-const { Result, Method, Analyte, Sample, MethodAnalyte, Matrix } = require("../../db/index.cjs");
+const { Result, Method, Analyte, Sample, MethodAnalyte, Matrix, User } = require("../../db/index.cjs");
 const { resultDetails } = require("../mappers/result.mapper.cjs");
 
 // create result
@@ -64,6 +64,14 @@ async function getResultsById(req, res, next) {
           model: MethodAnalyte,
           include: [{ model: Method, include: [Matrix] }, Analyte],
         },
+        {
+          model: User,
+          as: "enteredBy",
+        },
+        {
+          model: User,
+          as: "approvedBy",
+        },
       ],
     });
     // pass data to mapper to reformat to resultDetails -- mappers/results.mapper.cjs
@@ -83,6 +91,14 @@ async function getResultsBySample(req, res, next) {
           model: MethodAnalyte,
           include: [{ model: Method, include: [Matrix] }, Analyte],
         },
+        {
+          model: User,
+          as: "enteredBy",
+        },
+        {
+          model: User,
+          as: "approvedBy",
+        },
       ],
     });
     if (results.length === 0) return res.status(404).json({ error: "No results for this sample" });
@@ -98,6 +114,9 @@ async function updateResult(req, res, next) {
   try {
     const result = await Result.findByPk(req.params.id);
     if (!result) return res.status(404).json({ error: "Result not found" });
+    if (result.status === "APPROVED") {
+      throw new Error("Approved results cannot be modified");
+    }
     await result.update(req.body, { user: req.user?.username || "system" });
     res.json(result);
   } catch (err) {
@@ -117,6 +136,25 @@ async function deleteResult(req, res, next) {
   }
 }
 
+// result approval controller
+async function approveResult(req, res, next) {
+  try {
+    const result = await Result.findByPk(req.params.id);
+    if (!result) return res.status(404).json({ error: "Result not found" });
+    if (result.status === "APPROVED") return res.status(400).json({ error: "Result already approved" });
+    if (!result.value) return res.status(400).json({ error: "Result has no value" });
+
+    result.status = "APPROVED";
+    result.approvedBy = req.user?.id ?? null;
+    result.approvedAd = new Date();
+
+    await result.save();
+    res.json(result);
+  } catch (err) {
+    next(err);
+  }
+}
+
 module.exports = {
   createResult,
   getResultsBySample,
@@ -124,4 +162,5 @@ module.exports = {
   updateResult,
   deleteResult,
   getResultsByFilter,
+  approveResult,
 };

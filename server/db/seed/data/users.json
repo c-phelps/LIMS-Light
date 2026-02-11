@@ -1,0 +1,58 @@
+[
+  {
+    "id": "f35059df-404f-4e5b-82d9-d6f14d113c1c",
+    "userName": "Walsh",
+    "role": "TECH",
+    "email": "Walsh40@gmail.com",
+    "createdAt": "2025-10-29T13:05:39.563Z"
+  },
+  {
+    "id": "58b5f799-136a-45a8-bd6c-d73967ce5642",
+    "userName": "Konopelski",
+    "role": "SUPERVISOR",
+    "email": "Konopelski24@hotmail.com",
+    "createdAt": "2025-12-08T08:25:27.146Z"
+  },
+  {
+    "id": "483d076f-9d50-451e-90fa-a099adc5b9e2",
+    "userName": "Zboncak",
+    "role": "ADMIN",
+    "email": "Zboncak.Abbott67@hotmail.com",
+    "createdAt": "2026-01-26T12:52:58.748Z"
+  },
+  {
+    "id": "5ac27506-ef97-4e37-9416-5579d96a1788",
+    "userName": "Smith",
+    "role": "TECH",
+    "email": "Smith_Reichert@gmail.com",
+    "createdAt": "2025-12-20T00:42:02.048Z"
+  },
+  {
+    "id": "9575fbfd-6552-4956-b40e-8be27e423935",
+    "userName": "Denesik",
+    "role": "SUPERVISOR",
+    "email": "Denesik_Gleichner99@yahoo.com",
+    "createdAt": "2026-02-09T17:00:42.166Z"
+  },
+  {
+    "id": "d8bc1bb7-395f-4ef7-8d1a-c4a72796db9d",
+    "userName": "Pollich",
+    "role": "TECH",
+    "email": "Pollich64@yahoo.com",
+    "createdAt": "2025-12-02T12:18:48.857Z"
+  },
+  {
+    "id": "3be6dd24-b503-4bf9-9b8b-ed98eece11f8",
+    "userName": "Murphy",
+    "role": "SUPERVISOR",
+    "email": "Murphy_Rohan@hotmail.com",
+    "createdAt": "2025-12-22T06:36:45.131Z"
+  },
+  {
+    "id": "78e7f3f7-4dc4-4e36-8eb6-02cabae82037",
+    "userName": "Cormier",
+    "role": "ADMIN",
+    "email": "Cormier34@hotmail.com",
+    "createdAt": "2025-03-25T22:04:32.531Z"
+  }
+]

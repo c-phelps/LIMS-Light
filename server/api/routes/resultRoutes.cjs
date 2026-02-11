@@ -7,5 +7,6 @@ router.get("/:id", resultController.getResultsById);
 router.get("/sample/:sampleId", resultController.getResultsBySample);
 router.put("/:id", resultController.updateResult);
 router.delete("/:id", resultController.deleteResult);
+router.post("/:id/approve", resultController.approveResult);
 
 module.exports = router;
