@@ -2,28 +2,13 @@
 const { Result, Method, Analyte, Sample, MethodAnalyte, Matrix, User } = require("../../db/index.cjs");
 const { resultDetails } = require("../mappers/result.mapper.cjs");
 
-// create result
-async function createResult(req, res, next) {
-  try {
-    const { sampleId, methodAnalyteId } = req.body;
-    // validate sample
-    const sample = await Sample.findByPk(sampleId);
-    if (!sample) {
-      return res.status(404).json({ error: "Sample not found for Result" });
-    }
-    // enforce method - analyte contract
-    const methodAnalyte = await MethodAnalyte.findByPk(methodAnalyteId);
-    if (!methodAnalyte) {
-      return res.status(400).json({
-        error: "Analyte is not valid for the selected method",
-      });
-    }
-
-    const result = await Result.create(req.body, { user: req.user?.username || "system" });
-    res.status(201).json(result);
-  } catch (err) {
-    next(err);
-  }
+// simple helper function to allow for testing
+function isSystemUser(user) {
+  return !user || user.username === "system";
+}
+// simple helper to determine if appropriate permissions exist
+function hasApprovalRole(user) {
+  return ["SUPERVISOR", "ADMIN"].includes(user?.role);
 }
 
 // retrieve with filters (skeleton for now)
@@ -129,8 +114,40 @@ async function deleteResult(req, res, next) {
   try {
     const result = await Result.findByPk(req.params.id);
     if (!result) return res.status(404).json({ error: "Result not found" });
+    if (!isSystemUser(req.user) && !hasApprovalRole(req.user))
+      return res.status(400).json({ error: "User does not have sufficient privileges for deletion" });
     await result.destroy({ user: req.user?.username || "system" });
     res.status(204).end();
+  } catch (err) {
+    next(err);
+  }
+}
+
+// create result
+async function createResult(req, res, next) {
+  try {
+    const { sampleId, methodAnalyteId, value } = req.body;
+    // validate sample
+    const sample = await Sample.findByPk(sampleId);
+    if (!sample) {
+      return res.status(404).json({ error: "Sample not found for Result" });
+    }
+    // enforce method - analyte contract
+    const methodAnalyte = await MethodAnalyte.findByPk(methodAnalyteId);
+    if (!methodAnalyte) {
+      return res.status(400).json({
+        error: "Analyte is not valid for the selected method",
+      });
+    }
+
+    // prior to creation am I checking here for validation?
+    const result = await Result.createForSample({
+      sample,
+      methodAnalyte,
+      value,
+      user: req.user,
+    });
+    res.status(201).json(result);
   } catch (err) {
     next(err);
   }
@@ -141,14 +158,39 @@ async function approveResult(req, res, next) {
   try {
     const result = await Result.findByPk(req.params.id);
     if (!result) return res.status(404).json({ error: "Result not found" });
-    if (result.status === "APPROVED") return res.status(400).json({ error: "Result already approved" });
-    if (!result.value) return res.status(400).json({ error: "Result has no value" });
 
-    result.status = "APPROVED";
-    result.approvedBy = req.user?.id ?? null;
-    result.approvedAd = new Date();
+    // pass req.user to model methods for validation
+    await result.approve(req.user);
+    res.json(result);
+  } catch (err) {
+    next(err);
+  }
+}
 
-    await result.save();
+// results denied controller
+async function rejectResult(req, res, next) {
+  try {
+    const { reason } = req.body;
+
+    const result = await Result.findByPk(req.params.id);
+    if (!result) return res.status(404).json({ error: "Result not found" });
+
+    // pass reason, req.user to model methods for validation
+    await result.reject(reason, req.user);
+    res.json(result);
+  } catch (err) {
+    next(err);
+  }
+}
+
+// results submission controller
+async function submitResult(req, res, next) {
+  try {
+    const result = await Result.findByPk(req.params.id);
+    if (!result) return res.status(404).json({ error: "Result not found" });
+
+    // pass req.user to model methods for validation
+    await result.submit(req.user);
     res.json(result);
   } catch (err) {
     next(err);
@@ -163,4 +205,6 @@ module.exports = {
   deleteResult,
   getResultsByFilter,
   approveResult,
+  rejectResult,
+  submitResult,
 };

@@ -59,6 +59,18 @@ module.exports = (sequelize, DataTypes) => {
       onDelete: "SET NULL",
       onUpdate: "CASCADE",
     });
+
+    User.hasMany(models.Result, {
+      foreignKey: "rejectedById",
+      onDelete: "SET NULL",
+      onUpdate: "CASCADE",
+    });
+
+    User.hasMany(models.Result, {
+      foreignKey: "submittedById",
+      onDelete: "SET NULL",
+      onUpdate: "CASCADE",
+    });
   };
 
   return User;

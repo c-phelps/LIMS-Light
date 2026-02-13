@@ -38,6 +38,21 @@ module.exports = (sequelize, DataTypes) => {
     },
   );
 
+  Sample.prototype.countResults = async function () {
+    return await sequelize.models.Result.count({
+      where: {sampleId: this.id}
+    });
+  }
+
+  Sample.prototype.assertNoResults = async function() {
+    const count = await this.countResults();
+    if (count > 0) {
+      const err = new Error("Cannot delete sample with results");
+      err.status = 409;
+      throw err;
+    }
+  }
+
   Sample.associate = (models) => {
     Sample.belongsTo(models.Matrix, {
       foreignKey: "matrixId",

@@ -8,7 +8,14 @@ function resultDetails(result) {
     value: result.value,
     status: result.status,
     enteredBy: result.enteredBy.userName,
+    enteredAt: result.enteredAt,
+    submittedBy: result.submittedBy.userName,
+    submittedAt: result.submittedAt,
     approvedBy: result.approvedBy.userName,
+    approvedAt: result.approvedAt,
+    rejectedBy: result.rejectedBy.userName,
+    rejectedAt: result.rejectedAt,
+    rejectionReason: result.rejectionReason,
     notes: result.notes,
     createdAt: result.createdAt,
     updatedAt: result.updatedAt,
@@ -21,6 +28,8 @@ function resultDetails(result) {
     matrixName: matrix.matrixName,
     analyteName: analyte.analyteName,
     analyteCode: analyte.analyteCode,
+    canEdit: result.canEdit(),
+    isLocked: result.isLocked(),
   };
 }
 

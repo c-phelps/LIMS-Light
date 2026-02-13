@@ -85,8 +85,8 @@ async function deleteSample(req, res, next) {
     const sample = await Sample.findByPk(req.params.id);
     if (!sample) return res.status(404).json({ error: "Sample not found" });
 
+    await sample.assertNoResults();
     await sample.destroy({ user: req.user?.username || "system" });
-
     res.status(204).end();
   } catch (err) {
     next(err);
